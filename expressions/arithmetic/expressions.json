@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Sum",
+    "answer": "a+b",
+    "correct": true
+  },
+  {
+    "name": "Difference",
+    "answer": "a-b",
+    "correct": true
+  },
+  {
+    "name": "Product",
+    "answer": "a*b",
+    "correct": true
+  },
+  {
+    "name": "Ratio",
+    "answer": "a/b",
+    "correct": true
+  },
+  {
+    "name": "Remainder",
+    "answer": "a/b",
+    "correct": false
+  },
+  {
+    "name": "Remainder",
+    "answer": "7/3",
+    "correct": false
+  },
+  {
+    "name": "Remainder",
+    "answer": "3/7",
+    "correct": false
+  },
+  {
+    "name": "Remainder",
+    "answer": "no",
+    "correct": false
+  },
+  {
+    "name": "Remainder",
+    "answer": "pass",
+    "correct": false
+  },
+  {
+    "name": "Remainder",
+    "answer": "skip",
+    "correct": false
+  },
+  {
+    "name": "Remainder",
+    "answer": "a%b",
+    "correct": true
+  },
+  {
+    "name": "Average",
+    "answer": "(a+b)/2",
+    "correct": true
+  },
+  {
+    "name": "Average of three",
+    "answer": "(a+b+c)/3",
+    "correct": true
+  },
+  {
+    "name": "General average",
+    "answer": "total/count",
+    "correct": true
+  },
+  {
+    "name": "Distance",
+    "answer": "math.abs(a-b)",
+    "correct": false
+  },
+  {
+    "name": "Distance",
+    "answer": "Math.abs(a-b)",
+    "correct": true
+  },
+  {
+    "name": "Manhattan distance",
+    "answer": "Math.abs(x1+x2)+Math.abs(y1+y2)",
+    "correct": false
+  },
+  {
+    "name": "Manhattan distance",
+    "answer": "Math.abs(x1-x2)+Math.abs(y1-y2)",
+    "correct": true
+  },
+  {
+    "name": "2D distance",
+    "answer": "Math.sqrt",
+    "correct": false
+  },
+  {
+    "name": "2D distance",
+    "answer": "Math.sqrt(Math.abs(x1-x2))**2+(Math.abs(y1-y2))**2",
+    "correct": false
+  },
+  {
+    "name": "2D distance",
+    "answer": "Math.sqrt((Math.abs(x1-x2))**2+(Math.abs(y1-y2))**2)",
+    "correct": true
+  }
+]
