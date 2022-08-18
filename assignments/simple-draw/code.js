@@ -49,4 +49,4 @@ drawLine(30, 100, width, height, 'blue')
 
 drawFilledRect(150, 200, 200, 200, 'red')
 
-drawFilledRect(200, 200, 100, 50, 'blue')
+drawFilledRect(200, 250, 100, 50, 'blue')
