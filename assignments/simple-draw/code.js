@@ -55,4 +55,4 @@ drawFilledRect(180, 400, 50, 70, 'red')
 
 drawFilledRect(270, 400, 50, 70, 'red')
 
-drawFilledRect(80, 200, 70, 100, 'red')
+drawFilledRect(80, 250, 70, 100, 'red')
