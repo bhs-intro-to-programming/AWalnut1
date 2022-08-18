@@ -43,7 +43,7 @@ drawRect(69, 69, 69, 69, 'black');
 
 drawFilledCircle(69, height - 69, 69, 'red');
 
-drawFilledRect(69, 68, 69, 69, 'purple');
+drawFilledRect(69, 68, 69, 69, '255, 199, 23');
 
 drawLine(30, 100, width, height, 'blue')
 
