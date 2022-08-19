@@ -59,4 +59,4 @@ drawFilledRect(80, 250, 70, 100, 'red')
 //amogus backpack
 drawLine(400, 70, 300, 150,'green')
 drawLine(400, 150, 300, 150,'green')
-drawLine(400, 70, 300, 150,'green') 
+drawLine(400, 70, 150, 150,'green') 
