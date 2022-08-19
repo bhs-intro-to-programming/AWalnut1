@@ -49,7 +49,7 @@ drawLine(30, 100, width, height, 'blue')
 
 drawFilledRect(150, 200, 200, 200, 'red')
 //amogus body
-drawFilledRect(250, 230, 100, 50, 'white')
+drawFilledRect(250, 230, 100, 50, '#FFFFFF')
 //amogus visor
 drawFilledRect(180, 400, 50, 70, 'red')
 //amogus leg left
