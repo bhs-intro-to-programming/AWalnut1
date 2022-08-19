@@ -41,6 +41,8 @@ drawCircle(width/69, height/69, 69, 'blue');
 
 drawRect(69, 69, 69, 69, 'black');
 
+drawFilledCircle (69, 69, 69, 'orange')
+
 drawFilledRect(69, 68, 69, 69, '#cd3024');
 
 drawLine(30, 100, width, height, 'blue')
