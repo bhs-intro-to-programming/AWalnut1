@@ -49,7 +49,7 @@ drawLine(30, 100, width, height, 'blue')
 
 drawFilledRect(150, 200, 200, 200, 'red')
 //amogus body
-drawFilledRect(250, 230, 100, 50, 'white')
+drawRect(250, 230, 100, 50, 'white')
 //amogus visor
 drawFilledRect(180, 400, 50, 70, 'red')
 //amogus leg left
@@ -57,4 +57,4 @@ drawFilledRect(270, 400, 50, 70, 'red')
 //amogus leg right
 drawFilledRect(80, 250, 70, 100, 'red')
 //amogus backpack
-drawTri(130, 182, 40, 'green')
+draw(130, 182, 40, 'green')
