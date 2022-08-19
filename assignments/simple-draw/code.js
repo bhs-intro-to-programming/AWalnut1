@@ -57,4 +57,4 @@ drawFilledRect(270, 400, 50, 70, 'red')
 //amogus leg right
 drawFilledRect(80, 250, 70, 100, 'red')
 //amogus backpack
-drawFilledTrap(130, 182, 40, 18, 'green')
+drawFilledRect(130, 182, 40, 18, 'green')
