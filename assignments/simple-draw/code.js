@@ -50,7 +50,7 @@ drawLine(30, 100, width, height, 'blue')
 drawFilledRect(150, 200, 200, 200, 'red')
 //amogus body
 drawFilledRect(250, 230, 100, 50, '#FFFFFF')
-//amogus visor
+//amogus visor yeah im pretentious and used the hex value rather than just white what about it
 drawFilledRect(180, 400, 50, 70, 'red')
 //amogus leg left
 drawFilledRect(270, 400, 50, 70, 'red')
