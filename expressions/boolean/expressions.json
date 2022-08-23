@@ -8,5 +8,10 @@
     "name": "Energetic?",
     "answer": "enoughSleep===true&&justWorkedOut===false",
     "correct": true
+  },
+  {
+    "name": "Dragging?",
+    "answer": "enoughSleep===false&&lotsOfWork===ture",
+    "correct": false
   }
 ]
