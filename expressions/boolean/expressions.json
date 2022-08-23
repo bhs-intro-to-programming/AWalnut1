@@ -3,5 +3,10 @@
     "name": "Doing well?",
     "answer": "enoughSleep===true&&keepingUp===true",
     "correct": true
+  },
+  {
+    "name": "Energetic?",
+    "answer": "enoughSleep===true&&justWorkedOut===false",
+    "correct": true
   }
 ]
