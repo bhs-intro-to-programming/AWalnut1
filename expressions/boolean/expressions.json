@@ -13,5 +13,10 @@
     "name": "Dragging?",
     "answer": "enoughSleep===false&&lotsOfWork===ture",
     "correct": false
+  },
+  {
+    "name": "Dragging?",
+    "answer": "enoughSleep===false&&lotsOfWork===true",
+    "correct": true
   }
 ]
