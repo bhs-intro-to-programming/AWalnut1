@@ -38,5 +38,10 @@
     "name": "Coming to bookclub?",
     "answer": "member===true&&outSick===false",
     "correct": true
+  },
+  {
+    "name": "Ready for some football?",
+    "answer": "fast===true&&strong===true",
+    "correct": true
   }
 ]
