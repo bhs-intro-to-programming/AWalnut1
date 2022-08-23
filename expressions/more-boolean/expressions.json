@@ -28,5 +28,10 @@
     "name": "Wait for a sale?",
     "answer": "storeOpen===false||isASale===false",
     "correct": true
+  },
+  {
+    "name": "Coming to bookclub?",
+    "answer": "member===ture&&outSick===false",
+    "correct": false
   }
 ]
