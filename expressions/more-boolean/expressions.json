@@ -13,5 +13,10 @@
     "name": "Will we skip our trip to the store?",
     "answer": "storeOpen===false||linesTooLong===true",
     "correct": true
+  },
+  {
+    "name": "Wait for a sale?",
+    "answer": "storopen===false||isASale===false",
+    "correct": false
   }
 ]
