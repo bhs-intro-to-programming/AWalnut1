@@ -33,5 +33,10 @@
     "name": "Can go to prom?",
     "answer": "isSenior===true||invitedBySenior===ture",
     "correct": false
+  },
+  {
+    "name": "Can go to prom?",
+    "answer": "isSenior===true||invitedBySenior===true",
+    "correct": true
   }
 ]
