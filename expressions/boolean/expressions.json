@@ -53,5 +53,10 @@
     "name": "Not feeling it?",
     "answer": "fun===false||tired===true",
     "correct": true
+  },
+  {
+    "name": "Time to sleep?",
+    "answer": "sleepy===false&&dark===false",
+    "correct": false
   }
 ]
