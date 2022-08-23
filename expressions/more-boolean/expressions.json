@@ -33,5 +33,10 @@
     "name": "Coming to bookclub?",
     "answer": "member===ture&&outSick===false",
     "correct": false
+  },
+  {
+    "name": "Coming to bookclub?",
+    "answer": "member===true&&outSick===false",
+    "correct": true
   }
 ]
