@@ -112,5 +112,11 @@
     "answer": "'s.substring[0]'",
     "correct": false,
     "timestamp": 1661378434909
+  },
+  {
+    "name": "First character",
+    "answer": "'s.substring(0)'",
+    "correct": false,
+    "timestamp": 1661378466966
   }
 ]
