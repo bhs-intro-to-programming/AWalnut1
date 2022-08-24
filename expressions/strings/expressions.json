@@ -130,5 +130,11 @@
     "answer": "'foobar[0]'",
     "correct": false,
     "timestamp": 1661378829037
+  },
+  {
+    "name": "First character",
+    "answer": "k",
+    "correct": false,
+    "timestamp": 1661378839140
   }
 ]
