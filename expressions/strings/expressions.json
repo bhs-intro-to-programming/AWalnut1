@@ -118,5 +118,11 @@
     "answer": "'s.substring(0)'",
     "correct": false,
     "timestamp": 1661378466966
+  },
+  {
+    "name": "lower case",
+    "answer": "'foo'",
+    "correct": true,
+    "timestamp": 1661378645601
   }
 ]
