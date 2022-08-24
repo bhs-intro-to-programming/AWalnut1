@@ -352,5 +352,11 @@
     "answer": "s.substring(s.substring-3)",
     "correct": false,
     "timestamp": 1661380022613
+  },
+  {
+    "name": "Last three",
+    "answer": "s.substring(s.substring-1)",
+    "correct": false,
+    "timestamp": 1661380026764
   }
 ]
