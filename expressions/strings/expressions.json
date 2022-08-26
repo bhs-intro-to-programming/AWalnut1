@@ -496,5 +496,11 @@
     "answer": "s.toUpperCase",
     "correct": false,
     "timestamp": 1661551637134
+  },
+  {
+    "name": "Capitalize",
+    "answer": "ssubstring.toUpperCase",
+    "correct": false,
+    "timestamp": 1661551644205
   }
 ]
