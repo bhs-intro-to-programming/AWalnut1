@@ -442,5 +442,11 @@
     "answer": "sussy && balls",
     "correct": false,
     "timestamp": 1661551427322
+  },
+  {
+    "name": "Capitalize",
+    "answer": "s.substring(0)",
+    "correct": false,
+    "timestamp": 1661551528005
   }
 ]
