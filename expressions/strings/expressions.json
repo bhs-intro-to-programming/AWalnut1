@@ -460,5 +460,11 @@
     "answer": "s.substring(capitalise0)",
     "correct": false,
     "timestamp": 1661551562755
+  },
+  {
+    "name": "Capitalize",
+    "answer": "s.substring(capitalise,0)",
+    "correct": false,
+    "timestamp": 1661551567019
   }
 ]
