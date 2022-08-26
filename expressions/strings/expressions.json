@@ -514,5 +514,11 @@
     "answer": "'foo'.toUpperCase",
     "correct": false,
     "timestamp": 1661551686637
+  },
+  {
+    "name": "UPPER CASE",
+    "answer": "'foo'.toUpperCase(0)",
+    "correct": true,
+    "timestamp": 1661551691205
   }
 ]
