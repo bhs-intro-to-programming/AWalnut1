@@ -478,5 +478,11 @@
     "answer": "s.substring(0)",
     "correct": false,
     "timestamp": 1661551574268
+  },
+  {
+    "name": "Capitalize",
+    "answer": "s.substring(0).toUpperCase",
+    "correct": false,
+    "timestamp": 1661551622212
   }
 ]
