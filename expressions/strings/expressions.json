@@ -430,5 +430,11 @@
     "answer": "gdrggr",
     "correct": false,
     "timestamp": 1661551221375
+  },
+  {
+    "name": "Capitalize",
+    "answer": "s.length",
+    "correct": false,
+    "timestamp": 1661551385114
   }
 ]
