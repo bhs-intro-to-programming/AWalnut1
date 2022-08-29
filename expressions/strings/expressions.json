@@ -911,5 +911,19 @@
     "answer": "s.length",
     "correct": false,
     "timestamp": 1661811698760
+  },
+  {
+    "name": "Capitalize",
+    "canonical": "s[0].toUpperCase() + s.substring(1)",
+    "answer": "s.length",
+    "correct": false,
+    "timestamp": 1661811699024
+  },
+  {
+    "name": "Capitalize",
+    "canonical": "s[0].toUpperCase() + s.substring(1)",
+    "answer": "s.length",
+    "correct": false,
+    "timestamp": 1661811699305
   }
 ]
