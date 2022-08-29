@@ -876,5 +876,19 @@
     "answer": "s.length",
     "correct": false,
     "timestamp": 1661811697008
+  },
+  {
+    "name": "Capitalize",
+    "canonical": "s[0].toUpperCase() + s.substring(1)",
+    "answer": "s.length",
+    "correct": false,
+    "timestamp": 1661811697529
+  },
+  {
+    "name": "Capitalize",
+    "canonical": "s[0].toUpperCase() + s.substring(1)",
+    "answer": "s.length",
+    "correct": false,
+    "timestamp": 1661811697801
   }
 ]
