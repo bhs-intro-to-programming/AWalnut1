@@ -1058,5 +1058,12 @@
     "answer": "s.toUpperCase(0)/ns.toLowerCase(1)",
     "correct": false,
     "timestamp": 1661812148050
+  },
+  {
+    "name": "Capitalize",
+    "canonical": "s[0].toUpperCase() + s.substring(1)",
+    "answer": "s.toUpperCase()",
+    "correct": false,
+    "timestamp": 1661812224787
   }
 ]
