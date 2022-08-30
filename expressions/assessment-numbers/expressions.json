@@ -12,5 +12,12 @@
     "answer": "Math.PI*2**2",
     "correct": true,
     "timestamp": 1661895727129
+  },
+  {
+    "name": "Average",
+    "canonical": "(a + b) / 2",
+    "answer": "(a+b)/2",
+    "correct": true,
+    "timestamp": 1661895743179
   }
 ]
