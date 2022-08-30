@@ -96,5 +96,12 @@
     "answer": "\ts.toUpperCase().substring(0,1)+s.toLowerCase().substring(1)\t",
     "correct": true,
     "timestamp": 1661898400705
+  },
+  {
+    "name": "First character",
+    "canonical": "s[0]",
+    "answer": "s",
+    "correct": false,
+    "timestamp": 1661898520523
   }
 ]
