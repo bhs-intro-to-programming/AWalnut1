@@ -68,5 +68,12 @@
     "answer": "member&&!outSick",
     "correct": true,
     "timestamp": 1661896422431
+  },
+  {
+    "name": "Ready for some football?",
+    "canonical": "fast && strong",
+    "answer": "fast&&strong",
+    "correct": true,
+    "timestamp": 1661896435847
   }
 ]
