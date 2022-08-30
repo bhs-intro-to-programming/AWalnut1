@@ -19,5 +19,12 @@
     "answer": "!afraidOfTheDark&&!afraidOfSpiders",
     "correct": true,
     "timestamp": 1661896273709
+  },
+  {
+    "name": "Doing well?",
+    "canonical": "enoughSleep && keepingUp",
+    "answer": "enoughSleep&&keepingUp",
+    "correct": true,
+    "timestamp": 1661896288324
   }
 ]
