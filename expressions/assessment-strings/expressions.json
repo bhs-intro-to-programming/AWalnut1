@@ -117,5 +117,12 @@
     "answer": "s.substring(0,0)",
     "correct": false,
     "timestamp": 1661898556275
+  },
+  {
+    "name": "First character",
+    "canonical": "s[0]",
+    "answer": "s.substring(0,1)",
+    "correct": true,
+    "timestamp": 1661898558716
   }
 ]
