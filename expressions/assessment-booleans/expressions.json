@@ -117,5 +117,12 @@
     "answer": "inTheClass||isProctor",
     "correct": true,
     "timestamp": 1661896552666
+  },
+  {
+    "name": "Time to sleep?",
+    "canonical": "!sleepy || !dark",
+    "answer": "!sleepy||!dark",
+    "correct": true,
+    "timestamp": 1661896607483
   }
 ]
