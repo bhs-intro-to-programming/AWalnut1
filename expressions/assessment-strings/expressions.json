@@ -89,5 +89,12 @@
     "answer": "s.toUpperCase(0,1).toLowerCase(2)",
     "correct": false,
     "timestamp": 1661898336591
+  },
+  {
+    "name": "Capitalize",
+    "canonical": "s[0].toUpperCase() + s.substring(1).toLowerCase()",
+    "answer": "\ts.toUpperCase().substring(0,1)+s.toLowerCase().substring(1)\t",
+    "correct": true,
+    "timestamp": 1661898400705
   }
 ]
