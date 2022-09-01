@@ -23,9 +23,8 @@ const drawSquare = (x1, y1, x2, y2, x3, y3, x4, y4, color, width = 1) => {
   drawLine (x1, y1, x2, y2, color, width);
   drawLine (x2, y2, x3, y3, color, width);
   drawLine (x3, y3, x4, y4, color, width);
- drawLine (x4, y4, x1, y1, color, width); 
- }
-
+  drawLine (x4, y4, x1, y1, color, width);  
+  };
 // This draws a falling trangle of a particular shape whose bottom point is
 // positioned at x and whose y is a function of time.
 const drawFallingTriangle = (x, time) => {
@@ -43,7 +42,7 @@ const drawFallingTriangle = (x, time) => {
   drawTriangle(x1, y1, x2, y2, x3, y3, 'blue', 10);
 };
 
-drawRect(40, 19, 49 ,2, 'red')
+drawSquare(29, 39, 19, 39, 19, 39, 19 ,39, 'red', 10);
 
 
 // Leave this code here or the animation won't run. Also don't change the name
