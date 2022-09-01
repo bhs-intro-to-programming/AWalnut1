@@ -43,7 +43,7 @@ const drawFallingTriangle = (x, time) => {
   drawTriangle(x1, y1, x2, y2, x3, y3, 'blue', 10);
 };
 
-const drawSquare(29, 39, 19, 39, 19, 39, 19 ,39, 'red', 10);
+drawSquare(29, 39, 19, 39, 19, 39, 19 ,39, 'red', 10);
 
 
 // Leave this code here or the animation won't run. Also don't change the name
