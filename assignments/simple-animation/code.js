@@ -19,7 +19,12 @@ const drawTriangle = (x1, y1, x2, y2, x3, y3, color, width = 1) => {
   drawLine(x3, y3, x1, y1, color, width);
 };
 
-
+const drawSquare = (x1, y1, x2, y2, x3, y3, x4, y4, color, width = 1) => {
+  drawLine (x1, y1, x2, y2, color, width);
+  drawLine (x2, y2, x3, y3, color, width);
+  drawLine (x3, y3, x4, y4, color, width);
+ drawLine (x4, y4, x1, y1, color, width); 
+ }
 
 // This draws a falling trangle of a particular shape whose bottom point is
 // positioned at x and whose y is a function of time.
