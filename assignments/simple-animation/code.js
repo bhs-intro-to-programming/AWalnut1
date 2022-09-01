@@ -43,7 +43,7 @@ const drawFallingTriangle = (x, time) => {
   drawTriangle(x1, y1, x2, y2, x3, y3, 'blue', 10);
 };
 
-const drawFallingSquare = x, time) => {
+const drawFallingSquare = (x, time) => {
   let x1 = 40
   let x2 = x1 + 20
   let x3 = x1 - 40
