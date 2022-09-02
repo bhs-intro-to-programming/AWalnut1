@@ -334,5 +334,33 @@
     "answer": "s.substring(1)",
     "correct": false,
     "timestamp": 1662155367888
+  },
+  {
+    "name": "All but first and last",
+    "canonical": "s.substring(1, s.length - 1)",
+    "answer": "s.substring(1)",
+    "correct": false,
+    "timestamp": 1662155368808
+  },
+  {
+    "name": "All but first and last",
+    "canonical": "s.substring(1, s.length - 1)",
+    "answer": "s.substring(1)+s.substring(-1)",
+    "correct": false,
+    "timestamp": 1662155394216
+  },
+  {
+    "name": "All but first and last",
+    "canonical": "s.substring(1, s.length - 1)",
+    "answer": "s.substring(1).substring(-1)",
+    "correct": false,
+    "timestamp": 1662155418136
+  },
+  {
+    "name": "All but first and last",
+    "canonical": "s.substring(1, s.length - 1)",
+    "answer": "s.substring(1).substring(1,-1)",
+    "correct": false,
+    "timestamp": 1662155436489
   }
 ]
