@@ -446,5 +446,12 @@
     "answer": "s.substring(1)",
     "correct": true,
     "timestamp": 1662155728360
+  },
+  {
+    "name": "UPPER CASE",
+    "canonical": "s.toUpperCase()",
+    "answer": "s.toUpperCase",
+    "correct": false,
+    "timestamp": 1662155733591
   }
 ]
