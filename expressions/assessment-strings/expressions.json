@@ -124,5 +124,12 @@
     "answer": "s.substring(0,1)",
     "correct": true,
     "timestamp": 1661898558716
+  },
+  {
+    "name": "lower case",
+    "canonical": "s.toLowerCase()",
+    "answer": "s.toLowerCase",
+    "correct": false,
+    "timestamp": 1662154625962
   }
 ]
