@@ -509,5 +509,12 @@
     "answer": "s.substring().length(-3)",
     "correct": false,
     "timestamp": 1662155987860
+  },
+  {
+    "name": "Last three",
+    "canonical": "s.substring(s.length - 3)",
+    "answer": "s.substring(-1)",
+    "correct": false,
+    "timestamp": 1662155998596
   }
 ]
