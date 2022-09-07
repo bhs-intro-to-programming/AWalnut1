@@ -26,6 +26,10 @@ function averageOfThree (a,b,c) {
   return (a+b+c)/3
 }
 
+function distance (a,b) {
+  return Math.abs(a-b)
+}
+
 function manhattanDistance (a1, b1, a2, b2) {
   return (Math.abs(a1-a2))+(Math.abs(b1-b2))
 }
