@@ -48,3 +48,7 @@ const eatsFish = (isRed, isSpotted) => {
 const eatsMice = (isRed, isSpotted) => {
   return !isRed||!isSpotted
 }
+
+const isRed = (Flobby, Bloggy, Flibble, Globby) => {
+  return eatsNuts&&eatsWorms
+}
