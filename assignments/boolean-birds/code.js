@@ -26,5 +26,5 @@ const isBloggyBird = (isRed, isSpotted) => {
 }
 
 const isFlibbleBird = (isRed, isSpotted) => {
-  return isNotRed&&!isNotSpotted
+  return isNotRed&&isSpotted
 }
