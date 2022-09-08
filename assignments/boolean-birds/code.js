@@ -40,3 +40,7 @@ const eatsWorms = (isRed, isSpotted) => {
 const eatsNuts = (isRed, isSpotted) => {
   return isRed||!isSpotted
 }
+
+const eatsFish = (isRed, isSpotted) => {
+  return !isRed||isSpotted
+}
