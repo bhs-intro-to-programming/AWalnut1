@@ -34,6 +34,6 @@ function manhattanDistance (a1, b1, a2, b2) {
   return (Math.abs(a1-a2))+(Math.abs(b1-b2))
 }
 
-function euclideanDistance (a1, b1, a2, y2) {
+function euclideanDistance (a1, b1, a2, b2) {
   return Math.sqrt(a1-b1)**2+(a2-b2)**2
 }
