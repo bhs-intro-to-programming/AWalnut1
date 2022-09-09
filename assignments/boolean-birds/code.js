@@ -52,3 +52,4 @@ const eatsMice = (isRed, isSpotted) => {
 const isRed = (bird) => {
   return bird === 'Flobby' === 'Bloggy'
 }
+
