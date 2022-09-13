@@ -18,40 +18,40 @@
  */
 
 const isFlobbyBird = (isRed, isSpotted) => {
-  return isRed&&isSpotted
+  return isRed && isSpotted
 }
 
 const isBloggyBird = (isRed, isSpotted) => {
-  return isRed&&!isSpotted
+  return isRed && !isSpotted
 }
 
 const isFlibbleBird = (isRed, isSpotted) => {
-  return !isRed&&isSpotted
+  return !isRed && isSpotted
 }
 
 const isGlobbyBird = (isRed, isSpotted) => {
-  return !isRed&&!isSpotted
+  return !isRed && !isSpotted
 }
 
 const eatsWorms = (isRed, isSpotted) => {
-  return isRed||isSpotted
+  return isRed || isSpotted
 }
 
 const eatsNuts = (isRed, isSpotted) => {
-  return isRed||!isSpotted
+  return isRed || !isSpotted
 }
 
 const eatsFish = (isRed, isSpotted) => {
-  return !isRed||isSpotted
+  return !isRed || isSpotted
 }
 
 const eatsMice = (isRed, isSpotted) => {
-  return !isRed||!isSpotted
+  return !isRed || !isSpotted
 }
 
 const isRed = (bird) => {
-  return bird === 'Flobby' 
-  
+  return bird === 'Flobby'
+
 }
 
 
