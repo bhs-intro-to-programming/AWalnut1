@@ -33,4 +33,6 @@
 // operator works.
 
 
-s.search [aeiou]
+const s = phone => [
+  s.search [aeiou]
+]
