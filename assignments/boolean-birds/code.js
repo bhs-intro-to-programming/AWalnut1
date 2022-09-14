@@ -33,7 +33,7 @@ const isGlobbyBird = (isRed, isSpotted) => {
   return !isRed && !isSpotted
 }
 
-const eatsWorms = (isRed, isSptted) => {
+const eatsWorms = (isRed, isSpotted) => {
   return isRed || isSpotted
 }
 
