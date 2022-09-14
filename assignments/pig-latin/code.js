@@ -34,5 +34,5 @@
 
 
 const s = piglatin; {
-  return s.search /[aeiou]/
+  return s.search [aeiou]
 }
