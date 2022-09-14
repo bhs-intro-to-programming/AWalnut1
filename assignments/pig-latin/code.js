@@ -33,6 +33,5 @@
 // operator works.
 
 
-const s = piglatin; {
-  return s.search [aeiou]
-}
+const s = 'phone' 
+s.search (/[aeiou]/)
