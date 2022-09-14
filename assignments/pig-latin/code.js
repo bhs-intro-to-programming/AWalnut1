@@ -33,6 +33,6 @@
 // operator works.
 
 
-const s = pig => {
+const s = 'piglatin' => {
   return s.search [aeiou]
 }
