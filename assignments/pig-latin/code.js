@@ -33,4 +33,6 @@
 // operator works.
 
 
-const s.substring()
+let s = 'phone'; {
+ s.search(/[aeiou]/)
+}
