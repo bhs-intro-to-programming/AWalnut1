@@ -33,6 +33,6 @@
 // operator works.
 
 
-const s =  => {
+const s = _phone => {
   return s.search(/[aeiou]/)
 }
