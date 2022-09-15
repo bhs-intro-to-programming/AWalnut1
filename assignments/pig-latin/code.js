@@ -33,6 +33,6 @@
 // operator works.
 
 
-const s = 'phone'; {
+let s = 'phone'; {
  s.search(/[aeiou]/)
 }
