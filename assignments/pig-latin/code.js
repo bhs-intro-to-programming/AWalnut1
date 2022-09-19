@@ -33,6 +33,7 @@
 // operator works.
 
 
-const s = 'phone'; {
- return s.search(/[aeiou]/)
+const transPig {
+  let vowels = /[aeiou]/
+  s.search(vowels);
 }
