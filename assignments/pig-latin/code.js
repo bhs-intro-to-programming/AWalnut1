@@ -35,7 +35,7 @@
 
 function transPig(s) {
   let vowels = /[aeiou]/
-   s.search(vowels);
+  var n = s.search(vowels);
 }
 
 const s = 'phone';
