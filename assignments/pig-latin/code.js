@@ -33,7 +33,7 @@
 // operator works.
 
 
-const transPig {
+const = transPig => {
   let vowels = /[aeiou]/
   s.search(vowels);
 }
