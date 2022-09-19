@@ -38,4 +38,4 @@ const transPig = (s) => {
   s.search(vowels);
 }
 
-const s = phone
+const s = 'phone';
