@@ -34,5 +34,5 @@
 
 
 const s = 'phone'; {
- s.search(/[aeiou]/)
+ return s.search(/[aeiou]/)
 }
