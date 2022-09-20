@@ -39,4 +39,10 @@ function pigLatin(s) {
   return s.substring(s.length,n)+s.substring(0,n)+'ay'
 }
 
+function advancedPigLatin(s) {
+  let vowels = /[aeiou]/
+  let n = s.search(vowels);
+  return s.substring(s.length,n)+s.substring(0,n)+'ay'
+}
+
 const s = 'phone'
