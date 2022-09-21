@@ -36,11 +36,11 @@
 const pigLatin = (s) => {
   let vowels = /[aeiou]/
   let n = s.search(vowels);
-  return s.substring(s.length,n)+s.substring(0,n)+'ay';
+  return s.substring(s.length, n) + s.substring(0, n) + 'ay';
 }
 
 const advancedPigLatin = (s) => {
   let vowels = /[aeiou]/
   let n = s.search(vowels);
-  return s.substring(s.length,n)+s.substring(0,n)+'ay';
+  return vowels === 0? "Zero" : "Not zero"
 }
