@@ -33,15 +33,17 @@
 // operator works.
 
 
-const pigLatin = (sa) => {
+const pigLatin = (s) => {
   let vowels = /[aeiou]/
-  let n = sa.search(vowels);
-  return sa.substring(sa.length,n)+sa.substring(0,n)+'ay';
+  let n = s.search(vowels);
+  return s.substring(s.length,n)+s.substring(0,n)+'ay';
 }
 
 const advancedPigLatin = (s) => {
   let vowels = /[aeiou]/
   let n = s.search(vowels);
+  if n = 1
   return s.substring(s.length,n)+s.substring(0,n)+'ay';
-  
+  if n = 0
+  return s.substring()+'way';
 }
