@@ -1,36 +1,36 @@
-// A new method you will probably want to use. funny
-// funny
-// If s is a string: funny
-// funny
-//  s.search(/[aeiou]/) returns the index in s of the first vowel. funny
-// funny
-// For instance funny
-// funny
-//  const s = 'phone'; funny
-// funny
-//  s.search(/[aeiou]/) returns 2 funny
-// funny
-// The funny syntax /[aeiou]/ is called a "regular expression". We'll learn funny
-// about them in more detail later. funny
-// funny
-// To write the advancedPigLatin function you will want to know about a new funny
-// operator called the "ternary operator". (It's called this because it has funny
-// three operands.) funny
-// funny
-// It looks like: funny
-// funny
-//  booleanValue ? value1 : value2 funny
-// funny
-// And it evaluates to value1 is booleanValue is true and value2 if it is false. funny
-// funny
-// For example: funny
-// funny
-//  x === 0 ? "Zero" : "Not zero" funny
-// funny
-// will evaluate to either "Zero" or "Not zero" depending on whether x === 0. funny
-// funny
-// Feel free to play around in the REPL to make sure you understand how this funny
-// operator works. funny
+// A new method you will probably want to use.
+//
+// If s is a string:
+//
+//  s.search(/[aeiou]/) returns the index in s of the first vowel.
+//
+// For instance
+//
+//  const s = 'phone';
+//
+//  s.search(/[aeiou]/) returns 2
+//
+// The funny syntax /[aeiou]/ is called a "regular expression". We'll learn
+// about them in more detail later.
+//
+// To write the advancedPigLatin function you will want to know about a new
+// operator called the "ternary operator". (It's called this because it has
+// three operands.)
+//
+// It looks like:
+//
+//  booleanValue ? value1 : value2
+//
+// And it evaluates to value1 is booleanValue is true and value2 if it is false.
+//
+// For example:
+//
+//  x === 0 ? "Zero" : "Not zero"
+//
+// will evaluate to either "Zero" or "Not zero" depending on whether x === 0.
+//
+// Feel free to play around in the REPL to make sure you understand how this
+// operator works.
 
 
 const pigLatin = (s) => {
@@ -42,6 +42,6 @@ const pigLatin = (s) => {
 const advancedPigLatin = (s) => {
   let vowels = /[aeiou]/
   let n = s.search(vowels);
-  return n === 0 ? "Zero" : "Not zero"
+  return n === 0? "Zero" : "Not zero" 
 
 }
