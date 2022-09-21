@@ -45,4 +45,4 @@ const advancedPigLatin = (s) => {
   return a === 0? "Zero" : "Not zero" 
 }
 
-const a = (help)
+const a = 'help'
