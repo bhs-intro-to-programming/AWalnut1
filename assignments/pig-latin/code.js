@@ -32,7 +32,6 @@
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
 
-
 const pigLatin = (s) => {
   let vowels = /[aeiou]/
   let n = s.search(vowels);
@@ -42,6 +41,5 @@ const pigLatin = (s) => {
 const advancedPigLatin = (s) => {
   let vowels = /[aeiou]/
   let a = s.search(vowels);
-  return a === 0? "Zero" : "Not zero" 
+  if a === 0? "Zero" : "Not zero" 
 }
-
