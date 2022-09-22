@@ -40,6 +40,7 @@ const pigLatin = (s) => {
 }
 
 const n = 'bals'
+// damn cant translate bals to pig latin
 
 const advancedPigLatin = (s) => {
   let vowels = /[aeiou]/
