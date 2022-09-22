@@ -39,9 +39,6 @@ const pigLatin = (s) => {
   return s.substring(s.length, n) + s.substring(0, n) + 'ay';
 }
 
-const n = 'bals'
-// damn cant translate bals to pig latin
-
 const advancedPigLatin = (s) => {
   let vowels = /[aeiou]/
   let a = s.search(vowels);
