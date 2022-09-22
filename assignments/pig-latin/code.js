@@ -35,7 +35,7 @@
 const pigLatin = (s) => {
   let vowels = /[aeiou]/
   let n = s.search(vowels);
-  return s.substring(s.length, n) + s.substring(0, n) + 'ay';
+  return s.substring(n, s.length) + s.substring(0, n) + 'ay';
 }
 
 const advancedPigLatin = (s) => {
@@ -44,6 +44,6 @@ const advancedPigLatin = (s) => {
   if (a === 0) {
     return s +'way'
   } else {
-    return s.substring(s.length, a) + s.substring(0, a) + 'ay';
+    return s.substring(a, s.length) + s.substring(0, a) + 'ay';
   }
 }
