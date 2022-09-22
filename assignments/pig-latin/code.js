@@ -41,7 +41,7 @@ const pigLatin = (s) => {
 
 const advancedPigLatin = (s) => {
   let vowels = /[aeiou]/
-  const a = s.search(vowels);
-  let a === 0? "Zero" : "Not zero" 
+  let a = s.search(vowels);
+  if a === 0? "Zero" : "Not zero" 
 }
 
