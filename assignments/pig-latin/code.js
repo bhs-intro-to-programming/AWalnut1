@@ -2,13 +2,13 @@
 //
 // If s is a string:
 //
-//  s.search(/[aeiou]/) returns the index in s of the first vowel.
+// s.search(/[aeiou]/) returns the index in s of the first vowel.
 //
 // For instance
 //
-//  const s = 'phone';
+// const s = 'phone';
 //
-//  s.search(/[aeiou]/) returns 2
+// s.search(/[aeiou]/) returns 2
 //
 // The funny syntax /[aeiou]/ is called a "regular expression". We'll learn
 // about them in more detail later.
@@ -19,15 +19,31 @@
 //
 // It looks like:
 //
-//  booleanValue ? value1 : value2
+// booleanValue ? value1 : value2
 //
 // And it evaluates to value1 is booleanValue is true and value2 if it is false.
 //
 // For example:
 //
-//  x === 0 ? "Zero" : "Not zero"
+// x === 0 ? "Zero" : "Not zero"
 //
 // will evaluate to either "Zero" or "Not zero" depending on whether x === 0.
 //
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
+
+const pigLatin = (s) => {
+  let vowels = /[aeiou]/
+  let n = s.search(vowels);
+  return s.substring(n, s.length) + s.substring(0, n) + 'ay';
+}
+
+const advancedPigLatin = (s) => {
+  let vowels = /[aeiou]/
+  let a = s.search(vowels);
+  if (a === 0) {
+    return s +'way'
+  } else {
+    return s.substring(a, s.length) + s.substring(0, a) + 'ay';
+  }
+}
