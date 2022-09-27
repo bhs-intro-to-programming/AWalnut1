@@ -30,4 +30,4 @@
 //  x++;
 //}
 
-drawFilledCircle (500, 100, 10, 'blue')
+drawFilledCircle (600, 100, 10, 'blue')
