@@ -24,11 +24,14 @@
  *  clear()
  */
 // Canvas is 672 pixels wide for some ungodly reason
-// classic loop
-//let x = 0;
-// while (x < 100) {
-// console.log(x);
-//  x++;
-//}
+// Canvas is 270 pixels tall and one pixel deep
+// actual classic loop
+//for (let i = 0; i < s.length; i++) {
+// Do something with s[i], e.g.
+// console.log(s[i])
+// }
 
-drawFilledCircle (62, 269, 1, 'blue')
+for (let i = 0; i < s.length; i++) {
+// Do something with s[i], e.g.
+ console.log(s[i])
+ }
