@@ -30,6 +30,7 @@
 // Do something with s[i], e.g.
 // console.log(s[i])
 // }
+const s = 627
 
 for (let i = 0; i < s.length; i++) {
 // Do something with s[i], e.g.
