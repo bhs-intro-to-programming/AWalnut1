@@ -29,4 +29,5 @@
 //for (let i = 0; i < s.length; i++) {
 // Do something with s[i], e.g.
 // console.log(s[i])
-// }
+// } god
+
