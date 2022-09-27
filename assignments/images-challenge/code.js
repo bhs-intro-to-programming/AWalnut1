@@ -23,6 +23,7 @@
  *
  *  clear()
  */
+// Canvas is 672 pixels wide for some ungodly reason
 // classic loop
 //let x = 0;
 // while (x < 100) {
@@ -30,4 +31,4 @@
 //  x++;
 //}
 
-drawFilledCircle (672, 100, 1, 'blue')
+drawFilledCircle (672, 250, 1, 'blue')
