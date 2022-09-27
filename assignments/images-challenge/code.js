@@ -28,4 +28,6 @@
 // while (x < 100) {
 // console.log(x);
 //  x++;
-// }
+//}
+
+drawFilledCircle (20, 20, 10, blue)
