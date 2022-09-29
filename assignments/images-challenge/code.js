@@ -31,5 +31,8 @@
 // console.log(s[i])
 // } god
 
-let a = 11
-drawFilledCircle(20, 135, a, 'blue')
+
+const circleLine = a => {
+  let a = 11
+  drawFilledCircle(20, 135, a, 'blue')
+}
