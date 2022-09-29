@@ -32,7 +32,7 @@
 // } god
 
 
-const circleLine = a => {
+const circleLine = (a) => {
   let a = 11
   drawFilledCircle(20, 135, a, 'blue')
 }
