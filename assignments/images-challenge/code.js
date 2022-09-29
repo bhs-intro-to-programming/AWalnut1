@@ -31,5 +31,5 @@
 // console.log(s[i])
 // } god
 
-let a = 11
+let a = 140
 drawFilledCircle(20, 135, a, 'blue')
