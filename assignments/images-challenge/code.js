@@ -31,3 +31,4 @@
 // console.log(s[i])
 // } god
 
+drawCircle (20, 30, 34. 'red', lineWidth=4)
