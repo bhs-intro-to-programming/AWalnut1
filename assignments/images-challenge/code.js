@@ -31,4 +31,4 @@
 // console.log(s[i])
 // } god
 
-drawFilledCircle(20, 30, 34, 'blue')
+drawFilledCircle(20, 135, 34, 'blue')
