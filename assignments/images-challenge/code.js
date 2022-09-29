@@ -30,5 +30,5 @@
 // Do something with s[i], e.g.
 // console.log(s[i])
 // } god
-let a = 11
-drawFilledCircle(20, 135, a, 'red')
+  let a = 11
+  drawFilledCircle(20, 135, a, 'red')
