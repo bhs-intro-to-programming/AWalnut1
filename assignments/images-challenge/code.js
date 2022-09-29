@@ -30,9 +30,5 @@
 // Do something with s[i], e.g.
 // console.log(s[i])
 // } god
-
-
-const circleLine = (a) => {
-  let a = 11
-  drawFilledCircle(20, 135, a, 'blue')
-}
+let a = 11
+drawFilledCircle(20, 135, a, 'red')
