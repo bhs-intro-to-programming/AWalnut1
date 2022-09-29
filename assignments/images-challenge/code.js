@@ -31,5 +31,5 @@
 // console.log(s[i])
 // } god
 
-let r = 1
-drawFilledCircle(20, 135, r, 'blue')
+let r = a
+drawFilledCircle(20, 135, a, 'blue')
