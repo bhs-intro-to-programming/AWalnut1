@@ -6,10 +6,15 @@ const emit = (a, b, product) => {
 
 // Write your code here ...
 const averageWeight = (w, n) => {
-  return w/n
+  return w / n
 }
 
-const hypotenuse = (z, b) => {
-  let z**2 + b**2 = c**2
-  return c
+//const hypotenuse = (a, b) => {
+//  let a**2 + b**2 = c**2
+//  return c
+//} well get back to you
+
+const maxRadius = (w, h) => {
+  let Math.min(w,h) = smaller
+  return smaller/2
 }
