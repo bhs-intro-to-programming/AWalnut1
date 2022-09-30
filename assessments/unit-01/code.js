@@ -14,7 +14,11 @@ const averageWeight = (w, n) => {
 //  return c
 //} well get back to you
 
-const maxRadius = (w, h) => {
-  let Math.min(w,h) = smaller
-  return smaller/2
+//const maxRadius = (w, h) => {
+//  let Math.min (w, h) = smaller
+//  return smaller / 2
+//}and you
+
+const numCircles = (r,w) => {
+  return w/r 
 }
