@@ -19,7 +19,18 @@ const averageWeight = (w, n) => {
 //  return smaller / 2
 //}and you
 
-const numCircles = (r,w) => {
-  let w/r = circles
-  return Math.floor(circles)
+//const numCircles = (w,r ) => {
+//  let w/r = circles
+//  return Math.floor(circles)
+//} this should totally work but i want to have at least ONE done so were moving on
+
+//const offset not even gonna try this one
+
+const canSleepIn = (weekday,vacation) => {
+  if {
+    weekday===true && vacation===true
+    return true
+  } else {
+    return false
+  }
 }
