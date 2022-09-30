@@ -26,16 +26,10 @@ const averageWeight = (w, n) => {
 
 //const offset not even gonna try this one
 
-//const canSleepIn = (weekday,vacation) => {
-//  if 
-//    weekday===false && vacation===true
-//    return true
-//   else {
-//    return false
-//  } i feel as if i am missing one very small 
-//} but very important detail that would make this all work
+const canSleepIn = (weekday,vacation) => {
+  return !weekday||vacation
+}
 
 const canGoToProm = (senior, invited, exclusion) => {
-  if senior === true || invited === true !! exclusion
-  return true
+  return senior||invited&&!exclusion
 }
