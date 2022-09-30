@@ -12,24 +12,28 @@ const averageWeight = (w, n) => {
 //const hypotenuse = (a, b) => {
 //  let a**2 + b**2 = c**2
 //  return c
-//} well get back to you
+//}; well get back to you
 
 //const maxRadius = (w, h) => {
 //  let Math.min (w, h) = smaller
 //  return smaller / 2
-//}and you
+//};and you
 
 //const numCircles = (w,r ) => {
 //  let w/r = circles
 //  return Math.floor(circles)
-//} this should totally work but i want to have at least ONE done so were moving on
+//}; this should totally work but i want to have at least ONE done so were moving on
 
 //const offset not even gonna try this one
 
-const canSleepIn = (weekday,vacation) => {
-  return !weekday||vacation
-}
+const canSleepIn = (weekday, vacation) => {
+  return !weekday || vacation
+};
 
 const canGoToProm = (senior, invited, exclusion) => {
-  return senior||invited&&!exclusion
-}
+  return senior || invited && !exclusion
+};
+
+const getsSpeedingTicket = (mph, grouchy) => {
+
+};
