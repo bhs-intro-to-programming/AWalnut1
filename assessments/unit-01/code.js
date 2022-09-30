@@ -9,7 +9,7 @@ const averageWeight = (w, n) => {
   return w/n
 }
 
-const hypotenuse = (a, b) => {
-  let a**2 + b**2 = c**2
+const hypotenuse = (z, b) => {
+  let z**2 + b**2 = c**2
   return c
 }
