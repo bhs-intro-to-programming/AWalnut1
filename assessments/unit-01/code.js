@@ -27,10 +27,10 @@ const averageWeight = (w, n) => {
 //const offset not even gonna try this one
 
 const canSleepIn = (weekday,vacation) => {
-  if {
+  if 
     weekday===true && vacation===true
     return true
-  } else {
+   else {
     return false
   }
 }
