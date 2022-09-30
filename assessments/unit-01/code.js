@@ -20,5 +20,6 @@ const averageWeight = (w, n) => {
 //}and you
 
 const numCircles = (r,w) => {
-  return w/r 
+  let w/r = circles
+  return Math.floor(circles)
 }
