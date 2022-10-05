@@ -10,4 +10,8 @@ const averageOfThree = (a,b,c) => {
 
 const multiply = (a,b) => {
   return a*b
-}
+} // it would have been cool tho, trust me
+
+const addButThenAddOneMore = (a,b) => {
+  return (a+b)+1
+};
