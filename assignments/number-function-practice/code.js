@@ -7,6 +7,7 @@ const averageOfThree = (a,b,c) => {
 }; // getting better
 
 // i just spent the last 15 mins trying to do a cool thing with like let loops and shit and then realised its the exact same as
+
 const multiply = (a,b) => {
   return a*b
 }
