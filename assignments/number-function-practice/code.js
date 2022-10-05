@@ -14,4 +14,8 @@ const multiply = (a,b) => {
 
 const addButThenAddOneMore = (a,b) => {
   return (a+b)+1
+}; // i thought it would be funny
+
+const nothing = (a,b) => {
+  return (a,b)
 };
