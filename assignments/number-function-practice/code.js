@@ -17,5 +17,6 @@ const addButThenAddOneMore = (a,b) => {
 }; // i thought it would be funny
 
 const nothing = (a,b) => {
-  return (a),(b)
+  return a
+  return b
 };
