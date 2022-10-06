@@ -37,5 +37,5 @@ const realSmall = (victim) => {
 }; // also funny
 
 const randomPlus = (a) => {
-  return Math.random()+a
-};
+  return Math.random() + a
+}; // forgot about having to do the little () to declare a function
