@@ -21,13 +21,17 @@ const nothing = (a) => {
 }; // i read your thing on the PR, sad i cant fufill my true creative vision but this will have to do
 
 const cubed = (a) => {
-  return a**3
+  return a ** 3
 }; // haha get cubed idiot
 
-const remainder = (a,b) => {
-  return a%b
+const remainder = (a, b) => {
+  return a % b
 }; // just using this so i can find out what the % does
 // found out its call the remainder, still no idea what it does
 const zero = (a) => {
-  return a-a
+  return a - a
+};// funny
+
+const realSmall = (victim) => {
+  return (((((((victim/2)/2)/2)/2)/2)/2)/2)
 };
