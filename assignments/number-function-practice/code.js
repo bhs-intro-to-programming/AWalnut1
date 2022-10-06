@@ -49,5 +49,6 @@ const perimeterOfASquareThatIsTwiceTheSizeOfWhatItWouldBeNormally = (a) => {
 }; // not realy sure what im doing anymore, but im havin fun :)
 // also comically long function names are comical(ly long)
 const fatArrows = (a) => {
+  let i = 0
   return '=>' 
 };
