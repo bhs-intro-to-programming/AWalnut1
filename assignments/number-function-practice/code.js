@@ -22,4 +22,8 @@ const nothing = (a) => {
 
 const cubed = (a) => {
   return a**3
-};
+}; // haha get cubed idiot
+
+const percent = (a,b) => {
+  return a%b
+}; // just using this so i can find out what the % does
