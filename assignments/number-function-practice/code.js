@@ -42,4 +42,8 @@ const randomPlus = (a) => {
 
 const three = (a) => {
   return 3
-}
+} // not even going to dignify this one with a semicolon
+
+const perimeterOfASquareThatIsTwiceTheSizeOfWhatItWouldBeNormally = (a) => {
+  return (a * 4) * 2
+};
