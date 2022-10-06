@@ -35,3 +35,7 @@ const zero = (a) => {
 const realSmall = (victim) => {
   return (((((((victim / 2) / 2) / 2) / 2) / 2) / 2) / 2)
 }; // also funny
+
+const randomPlus = (a) => {
+  return Math.rand+a
+};
