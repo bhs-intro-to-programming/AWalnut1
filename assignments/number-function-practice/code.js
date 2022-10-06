@@ -55,4 +55,13 @@ const fatArrows = (a) => {
     i++
   }
   return '=>' 
-};
+}; // hehe look at all those little guys
+
+const flipACoin = () => {
+  let c = Math.random()
+  if (c < 0.5) {
+    return 'heads'
+  } else {
+    return 'tails'
+  }
+}
