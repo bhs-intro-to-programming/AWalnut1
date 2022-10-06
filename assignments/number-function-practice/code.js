@@ -16,6 +16,6 @@ const addButThenAddOneMore = (a, b) => {
   return (a + b) + 1
 }; // i thought it would be funny, could be shortened to just addOneMore
 
-const nothing = (a, b) => {
-  return (a),(b)
+const nothing = (a) => {
+  return (a)
 }; // i dont understand why a function that takes two variables and returns thos two variables unchanged is so dang hard to program but it is
