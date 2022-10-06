@@ -37,5 +37,5 @@ const realSmall = (victim) => {
 }; // also funny
 
 const randomPlus = (a) => {
-  return Math.rand+a
+  return Math.random()+a
 };
