@@ -57,11 +57,13 @@ const fatArrows = (a) => {
   return '=>' 
 }; // hehe look at all those little guys
 
-const flipACoin = (a) => {
+const flipACoin = () => {
   let c = Math.random()
   if (c < 0.5) {
     return 'heads'
   } else {
     return 'tails'
   }
-}
+}; // very useful function i swear
+// really wish there was a way to declare a function without saying a variable, if there is one let me know. it has no practical value but it would be funny
+// haha line 69
