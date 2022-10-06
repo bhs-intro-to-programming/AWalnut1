@@ -27,7 +27,7 @@ const cubed = (a) => {
 const remainder = (a, b) => {
   return a % b
 }; // just using this so i can find out what the % does
-// found out its call the remainder, still no idea what it does
+// found out its called the remainder, still no idea what it does
 const zero = (a) => {
   return a - a
 };// funny
@@ -38,4 +38,8 @@ const realSmall = (victim) => {
 
 const randomPlus = (a) => {
   return Math.random() + a
-}; // forgot about having to do the little () to declare a function
+}; // forgot about having to do the little () to declare a function, also funny 3
+
+const three = (a) => {
+  return 3
+}
