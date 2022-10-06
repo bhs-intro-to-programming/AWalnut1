@@ -33,5 +33,5 @@ const zero = (a) => {
 };// funny
 
 const realSmall = (victim) => {
-  return (((((((victim/2)/2)/2)/2)/2)/2)/2)
-};
+  return (((((((victim / 2) / 2) / 2) / 2) / 2) / 2) / 2)
+}; // also funny
