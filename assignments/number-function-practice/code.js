@@ -28,3 +28,6 @@ const remainder = (a,b) => {
   return a%b
 }; // just using this so i can find out what the % does
 // found out its call the remainder, still no idea what it does
+const zero = (a) => {
+  return a-a
+};
