@@ -40,7 +40,7 @@ const randomPlus = (a) => {
   return Math.random() + a
 }; // forgot about having to do the little () to declare a function, also funny 3
 
-const three = (a) => {
+const three = () => {
   return 3
 } // not even going to dignify this one with a semicolon
 
@@ -65,5 +65,5 @@ const flipACoin = () => {
     return 'tails'
   }
 }; // very useful function i swear
-// really wish there was a way to declare a function without saying a variable, if there is one let me know. it has no practical value but it would be funny
+// cant just do it in a browser no way
 // haha line 69
