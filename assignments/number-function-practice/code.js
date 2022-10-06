@@ -52,7 +52,7 @@ const fatArrows = (a) => {
   let i = 0
   while (i < a) {
     console.log('=>')
-    1++
+    i++
   }
   return '=>' 
 };
