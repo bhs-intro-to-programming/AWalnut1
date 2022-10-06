@@ -18,4 +18,8 @@ const addButThenAddOneMore = (a, b) => {
 
 const nothing = (a) => {
   return (a)
-}; // i dont understand why a function that takes two variables and returns thos two variables unchanged is so dang hard to program but it is
+}; // i read your thing on the PR, sad i cant fufill my true creative vision but this will have to do
+
+const cubed = (a) => {
+  return a**3
+};
