@@ -43,3 +43,7 @@ const payWithOvertime = (numHours, hourlyRate, overtimeRate) => {
     return (hourlyRate * 8) + ((numHours-8) * overtimeRate)
   }
 }; 
+
+const firstClassPostage = (letterOz) => {
+  return 60 + (Math.ceil(letterOz))
+};
