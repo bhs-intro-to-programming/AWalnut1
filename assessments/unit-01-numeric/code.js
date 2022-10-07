@@ -10,11 +10,11 @@ const G = 6.6743e-11;
 
 const itemsLeftOver = (numberOfPeople, numberOfItems) => {
   while (numberOfPeople > numberOfItems) {
-    numberOfPeople - numberOfItems
     console.log(numberOfItems)
+    numberOfPeople - numberOfItems
   }
-  return 7 //just trying something
-};
+  return numberOfItems
+}; // it didnt work
 
 const areaOfCircle = (radius) => {
   return Math.PI * radius ** 2
