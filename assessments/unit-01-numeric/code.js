@@ -35,3 +35,12 @@ const earnedRunAverage = (earnedRuns, innings) => {
 const valueOfJewels = (numDiamonds, numEmeralds, valueDiamonds, valueEmeralds) => {
   return (numDiamonds * valueDiamonds) + (numEmeralds, valueEmeralds)
 };
+
+const payWithOvertime = (numHours, hourlyRate, overtimeRate) => {
+  if numHours <= 8 {
+    return numHours * hourlyRate
+  } else  {
+    let (numHours - 8) = overtimeHours
+    return (hourlyRate * 8) + (overtimeHours * overtimeRate)
+  }
+};
