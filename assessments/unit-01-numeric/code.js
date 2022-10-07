@@ -22,7 +22,7 @@ const areaOfCircle = (radius) => {
 
 const volumeOfCube = (edge) => {
   return
-};
+}; // i dont know how to calculate this unless "edge" means one line rather than one face, but untill then ill prolly leave this one blank
 
 const populationGrowth = (population, growth) => {
   return population * (1 + growth)
