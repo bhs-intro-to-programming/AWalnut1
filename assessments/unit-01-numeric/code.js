@@ -15,7 +15,7 @@ const itemsLeftOver = (numberOfPeople, numberOfItems) => {
   }
   return numberOfItems
 }; // it didnt work
-
+// I cant figure this one out, im probably really close but i dont want to run out of time
 const areaOfCircle = (radius) => {
   return Math.PI * radius ** 2
 }; // didnt see the proper syntax in the question for a second there
