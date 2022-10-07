@@ -50,3 +50,4 @@ const firstClassPostage = (letterOz) => {
 
 const weightOnJupiter = (weightOnEarth) => {
   return (weightOnEarth / EARTH_GRAVITY) * JUPITER_GRAVITY
+};
