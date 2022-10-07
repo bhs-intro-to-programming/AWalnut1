@@ -13,7 +13,7 @@ const itemsLeftOver = (numberOfPeople, numberOfItems) => {
     numberOfPeople - numberOfItems
     console.log(numberOfItems)
   }
-  return
+  return 7 //just trying something
 };
 
 const areaOfCircle = (radius) => {
