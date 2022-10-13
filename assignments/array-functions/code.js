@@ -1,3 +1,4 @@
 const countTens = (sx) => {
-  return sx[3]
+  let tens = 0
+  for (let)
 }
