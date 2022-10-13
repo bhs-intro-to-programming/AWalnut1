@@ -1,7 +1,7 @@
 const countTens = (xs) => {
   let tens = 0
-  for (let array = 0; array < array.length; array++) {
-    if (array [10]) {
+  for (let xs = 0; xs < xs.length; xs++) {
+    if (xs [10]) {
       tens++
     }
   }
