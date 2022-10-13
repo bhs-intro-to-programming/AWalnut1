@@ -1,4 +1,4 @@
-const countTens = (sx) => {
+const countTens = (xs) => {
   let tens = 0
   for (let number = 0; number < number.length number++) {
     if (number [10]) {
