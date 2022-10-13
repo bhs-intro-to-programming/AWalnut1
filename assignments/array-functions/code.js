@@ -1,3 +1,3 @@
 const countTens = (sx) => {
-  return sx.length
+  return sx[10]
 }
