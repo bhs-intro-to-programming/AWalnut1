@@ -1,3 +1,3 @@
-const countTens = (sx) => {
-  return sx.length
+const countTens = (array) => {
+  return array.length
 }
