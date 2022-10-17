@@ -13,3 +13,11 @@ const rand = (n) => Math.floor(Math.random() * n);
 const fireAlarm = (isPulled, isFire, fireDrill) => {
   return isPulled || isFire || fireDrill
 };
+
+const canBePresident = (thirtyFiveYearsOld, bornCitizen, inUSFor14Years) => {
+  return thirtyFiveYearsOld && bornCitizen && inUSFor14Years
+};
+
+const willSeeTweet = (follows, retweet, blocked) => {
+  return (follows || retweet) && !blocked
+};
