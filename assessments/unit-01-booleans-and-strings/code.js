@@ -46,5 +46,5 @@ const isLeapYear = (year) => {
 }; // god this is so fucking shitty and messy but every time i tried to use else if it yelled errors at me until i had to stop
 
 const firstAndLast = (s) => {
-  return
+  return s.substring(0) + s.substring(s.length - 1)
 };
