@@ -26,6 +26,6 @@ const evenGreaterThanZero = (n) => {
   return
 }; // i have no idea, moving on
 
-const percent = (a,b) => {
-  return (a % b)
-}
+const isLeapYear = (year) => {
+  return
+};
