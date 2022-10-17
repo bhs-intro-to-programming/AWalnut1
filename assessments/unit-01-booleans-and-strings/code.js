@@ -27,5 +27,10 @@ const evenGreaterThanZero = (n) => {
 }; // i have no idea, moving on
 
 const isLeapYear = (year) => {
-  return year % 400
+  let (year % 400 = leapBIG)
+  if (leapBIG = 0 ){
+    return true
+  } else {
+    
+  }
 };
