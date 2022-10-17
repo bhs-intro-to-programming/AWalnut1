@@ -21,3 +21,11 @@ const canBePresident = (thirtyFiveYearsOld, bornCitizen, inUSFor14Years) => {
 const willSeeTweet = (follows, retweet, blocked) => {
   return (follows || retweet) && !blocked
 };
+
+const evenGreaterThanZero = (n) => {
+  return
+}; // i have no idea, moving on
+
+const percent = (a,b) => {
+  return (a % b)
+}
