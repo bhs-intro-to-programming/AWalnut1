@@ -23,8 +23,8 @@ const willSeeTweet = (follows, retweet, blocked) => {
 };
 
 const evenGreaterThanZero = (n) => {
-  return
-}; // i have no idea, moving on
+  return (n % 2) && (n > 0)
+}; 
 
 const isLeapYear = (year) => {
   const evenFour = year % 4 === 0
