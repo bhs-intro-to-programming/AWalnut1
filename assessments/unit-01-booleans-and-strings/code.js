@@ -27,9 +27,9 @@ const evenGreaterThanZero = (n) => {
 }; // i have no idea, moving on
 
 const isLeapYear = (year) => {
-  const evenFour = year % 4
-  const evenHundred = year % 100
-  const evenFourHundred = year % 400
+  const evenFour = year % 4 === 0
+  const evenHundred = year % 100 === 0
+  const evenFourHundred = year % 400 === 0
   return evenFour && (!evenHundred || evenFourHundred)
 }; 
 
