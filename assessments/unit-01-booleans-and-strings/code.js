@@ -15,7 +15,7 @@ const fireAlarm = (isPulled, isFire, fireDrill) => {
 };
 
 const canBePresident = (age, bornCitizen, citizenshipTime) => {
-  return (age >= 35) && bornCitizen && (citizenshipTime <= 14)
+  return (age >= 35) && bornCitizen && (citizenshipTime >= 14)
 };
 
 const willSeeTweet = (follows, retweet, blocked) => {
