@@ -27,23 +27,11 @@ const evenGreaterThanZero = (n) => {
 }; // i have no idea, moving on
 
 const isLeapYear = (year) => {
-  let(year % 400) = leapBIG
-  if (leapBIG = 0) {
-    return true
-  } else {
-    let(leapBIG % 100) = leapMid
-    if (leapMid = 0) {
-      return false
-    } else {
-      let(leapMid % 4) = leapSmall
-      if (leapSmall = 0) {
-        return true
-      } else {
-        return false
-      }
-    }
-  }
-}; // god this is so fucking shitty and messy but every time i tried to use else if it yelled errors at me until i had to stop
+  const evenFour = year % 4
+  const evenHundred = year % 100
+  const evenFourHundred = year % 400
+  return evenFour && (!evenHundred || evenFourHundred)
+}; 
 
 const firstAndLast = (s) => {
   return s.substring(0) + s.substring(s.length - 1)
