@@ -14,8 +14,8 @@ const fireAlarm = (isPulled, isFire, fireDrill) => {
   return isPulled || isFire || fireDrill
 };
 
-const canBePresident = (thirtyFiveYearsOld, bornCitizen, inUSFor14Years) => {
-  return thirtyFiveYearsOld && bornCitizen && inUSFor14Years
+const canBePresident = (age, bornCitizen, citizenshipTime) => {
+  return (age >= 35) && bornCitizen && (citizenshipTime <= 14)
 };
 
 const willSeeTweet = (follows, retweet, blocked) => {
