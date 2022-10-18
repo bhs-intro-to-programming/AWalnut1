@@ -23,7 +23,7 @@ const willSeeTweet = (follows, retweet, blocked) => {
 };
 
 const evenGreaterThanZero = (n) => {
-  return (n % 2) && (n > 0)
+  return (n % 2 === 0) && (n > 0)
 }; 
 
 const isLeapYear = (year) => {
