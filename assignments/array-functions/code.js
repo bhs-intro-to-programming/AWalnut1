@@ -1,9 +1,9 @@
 const countTens = (xs) => {
-  let i = 0
+  let tens = 0
   for (let i = 0; i < xs.length; i++) {
-    if (xs[i] = 10) {
-      i++
+    if (xs[i] === 10) {
+      tens++
     }
   }
-  return i;
+  return tens;
 } 
