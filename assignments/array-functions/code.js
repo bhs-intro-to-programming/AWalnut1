@@ -6,4 +6,8 @@ const countTens = (xs) => {
     }
   }
   return tens;
-} 
+}; // thanks for the lecture thing it helped :)
+
+const sum = (xs) => {
+  return
+};
