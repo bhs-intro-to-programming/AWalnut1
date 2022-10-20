@@ -20,7 +20,7 @@ const evens = (xs) => {
   let evenNumbers = []
   for (let i = 0; i < xs.length; i++) {
     if (xs[i] % 2 === 0) {
-      evenNumbers.push xs[i]
+      evenNumbers.push[xs[i]]
     }
   }
   return evenNumbers
