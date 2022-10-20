@@ -9,5 +9,9 @@ const countTens = (xs) => {
 }; // thanks for the lecture thing it helped :)
 
 const sum = (xs) => {
+  let sum = 0;
+  for (let i = 0; i < 100; i++) {
+  sum = sum + xs(i);
+}
   return 
 }; 
