@@ -16,6 +16,12 @@ const sum = (xs) => {
   return numbers
 }; // i forgot to put a return function whoopsy daisy
 
-const evens = (sx) => {
-  return
+const evens = (xs) => {
+  let numbers = 0
+  for (let i = 0; i < xs.length; i++) {
+    if (xs[i] % 2 === 0) {
+      numbers++
+    }
+  }
+  return numbers
 };
