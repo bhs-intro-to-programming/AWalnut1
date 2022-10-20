@@ -10,4 +10,4 @@ const countTens = (xs) => {
 
 const sum = (xs) => {
   return xs[0] + xs[1] + xs[2] + xs[3] + xs[4] + xs[5] + xs[6]
-};
+}; // worth a try lol
