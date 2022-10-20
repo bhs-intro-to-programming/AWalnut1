@@ -14,4 +14,8 @@ const sum = (xs) => {
   numbers = numbers + xs[i];
   }
   return numbers
-}; 
+}; // i forgot to put a return function whoopsy daisy
+
+const evens = (sx) => {
+  return
+};
