@@ -17,11 +17,11 @@ const sum = (xs) => {
 }; // i forgot to put a return function whoopsy daisy
 
 const evens = (xs) => {
-  let numbers = 0
+  let evenNumbers = []
   for (let i = 0; i < xs.length; i++) {
     if (xs[i] % 2 === 0) {
-      numbers++
+      evenNumbers.push xs[i]
     }
   }
-  return numbers
+  return evenNumbers
 };
