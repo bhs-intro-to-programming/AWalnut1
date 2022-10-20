@@ -13,5 +13,5 @@ const sum = (xs) => {
   for (let i = 0; i < xs.length; i++) {
   numbers = numbers + xs[i];
   }
-  return 
+  return numbers
 }; 
