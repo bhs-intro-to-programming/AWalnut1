@@ -19,5 +19,5 @@
   "true",
   "The sum of the numbers from 0 to numbers.length.",
   "Produces a new array containing all the words in words in uppercase.",
-  "This function, named \"foo\" (as you so often name yours) takes the variable \"xs\", usually referring to an array. It will make an array called \"result\" and run a loop xs.length times. This loop pushes the words in the xs array into the result array in reverse order. Or so i believe from what im seeing."
+  "This function, named \"foo\" (as you so often name yours) takes the variable \"xs\", usually referring to an array. It will make an array called \"result\" and run a loop xs.length times. This loop pushes the words in the xs array into the result array in reverse order."
 ]
