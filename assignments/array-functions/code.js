@@ -11,7 +11,7 @@ const countTens = (xs) => {
 const sum = (xs) => {
   let numbers = 0;
   for (let i = 0; i < xs.length; i++) {
-  numbers = numbers + xs[i];
+    numbers = numbers + xs[i];
   }
   return numbers
 }; // i forgot to put a return function whoopsy daisy
@@ -27,9 +27,17 @@ const evens = (xs) => {
 };
 
 const anyOverOneHundred = (xs) => {
-  for (let i=0; i < xs.length; i++) {
+  for (let i = 0; i < xs.length; i++) {
     if (xs[i] > 100)
-    return true
-  }  
- return false 
+      return true
+  }
+  return false
+};
+
+const pyramid = (integer) => {
+  let theMid = []
+  for (let i = 0; i < sx.length; i++) {
+
+  }
+  return
 };
