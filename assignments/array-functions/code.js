@@ -41,6 +41,5 @@ const pyramid = (xs) => {
       theMid.push(xs[i])
     }
   }
-  theMid.push(5)
   return theMid
 };
