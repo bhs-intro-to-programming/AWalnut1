@@ -38,7 +38,9 @@ const pyramid = (xs) => {
   let theMid = []
   for (let i = 0; i < xs.length; i++) {
     for (let j = 0; j < i; j++) {
-      theMid.push(xs[j])
+      if (xs[i] % 1 === 0) {
+      theMid.push(xs[i])
+      }
     }
   }
   return theMid
