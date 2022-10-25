@@ -34,7 +34,7 @@ const anyOverOneHundred = (xs) => {
   return false
 };
 
-const pyramid = (4) => {
+const pyramid = (number) => {
   let theMid = []
   for (let i = 0; i < number; i++) {
     for (let j = 0; j < i; j++) {
