@@ -34,12 +34,12 @@ const anyOverOneHundred = (xs) => {
   return false
 };
 
-const pyramid = (xs) => {
+const pyramid = (number) => {
   let theMid = []
-  for (let i = 0; i < xs; i++) {
+  for (let i = 0; i < number; i++) {
     for (let j = 0; j < i; j++) {
       console.log(j)
-      theMid.push(xs[i])
+      theMid.push(number[i])
     }
   }
   return theMid
