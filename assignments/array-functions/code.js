@@ -38,6 +38,7 @@ const pyramid = (xs) => {
   let theMid = []
   for (let i = 0; i < xs; i++) {
     for (let j = 0; j < i; j++) {
+      console.log(j)
       theMid.push(xs[i])
     }
   }
