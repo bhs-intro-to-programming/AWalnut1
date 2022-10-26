@@ -37,7 +37,7 @@ const anyOverOneHundred = (xs) => {
 const pyramid = (number) => {
   let theMid = []
   for (let i = 0; i < number; i++) {
-    for (let j = 0; j < i; j++) {
+    for (let j = -1; j < i; j++) {
       console.log(j)
       theMid.push(number)
     }
