@@ -39,7 +39,7 @@ const pyramid = (number) => {
   for (let i = 0; i < number; i++) {
     for (let j = -1; j < i; j++) {
       console.log(j)
-      theMid.push(number[i])
+      theMid.push(number)
     }
   }
   return theMid
