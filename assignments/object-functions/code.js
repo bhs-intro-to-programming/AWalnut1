@@ -12,6 +12,6 @@ const emptyObject = () => {
   return object
 }; //you could probably also just do return {} but also boring
 
-const distance = (p1, p2) => {
-  return (Math.sqrt((p1.x - p2.x)**2) + (p1.y - p2.y)**2)
+const distance = (obj1, obj2) => {
+  return (Math.sqrt((Math.abs(obj1.x - obj2.x)**2)+(Math.abs(obj1.y - obj2.y)**2)))
 };
