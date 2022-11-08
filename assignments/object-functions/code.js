@@ -21,7 +21,7 @@ const midpoint = (p1,p2) => {
   let y = ((p1.y + p2.y) / 2)
   let object = {x,y}
   return object
-}; // theres an easier way to do this but i cant be fucked to find out
+}; // theres an easier way to do this but i domt know how
 
 const sumSalaries = (salaries) => {
   
