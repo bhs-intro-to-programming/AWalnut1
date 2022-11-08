@@ -17,10 +17,7 @@ const distance = (p1, p2) => {
 }; // i saw your thing but the math.abs's seem to make it work, idk why
 
 const midpoint = (p1,p2) => {
-  let x = ((p1.x + p2.x) / 2)
-  let y = ((p1.y + p2.y) / 2)
-  let object = {x,y}
-  return object
+  return { x: ((p1.x + p2.x) /2), y: ((p1.y +p2.y) /2)}
 }; // theres an easier way to do this but i domt know how
 
 const sumSalaries = (salaries) => {
