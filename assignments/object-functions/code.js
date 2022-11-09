@@ -23,7 +23,7 @@ const midpoint = (p1,p2) => {
 const sumSalaries = (salaries) => {
   salaries.push[10]
   
-  return sum
+  return salaries
 };
 
 const newHighScore = (high, scores) => {
