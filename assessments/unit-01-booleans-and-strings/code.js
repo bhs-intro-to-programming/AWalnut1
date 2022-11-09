@@ -9,3 +9,30 @@ const rand = (n) => Math.floor(Math.random() * n);
 // syntactically correct function skeleton, more credit for a skeleton with a
 // reasonable argument list, yet more credit for a working function, and full
 // credit for a clear and simple working function.
+
+const fireAlarm = (isPulled, isFire, fireDrill) => {
+  return isPulled || isFire || fireDrill
+};
+
+const canBePresident = (age, bornCitizen, citizenshipTime) => {
+  return (age >= 35) && bornCitizen && (citizenshipTime >= 14)
+};
+
+const willSeeTweet = (follows, retweet, blocked) => {
+  return (follows || retweet) && !blocked
+};
+
+const evenGreaterThanZero = (n) => {
+  return (n % 2 === 0) && (n > 0)
+}; 
+
+const isLeapYear = (year) => {
+  const evenFour = year % 4 === 0
+  const evenHundred = year % 100 === 0
+  const evenFourHundred = year % 400 === 0
+  return evenFour && (!evenHundred || evenFourHundred)
+}; 
+
+const firstAndLast = (s) => {
+  return s.substring(0) + s.substring(s.length - 1)
+};
