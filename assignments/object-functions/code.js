@@ -27,3 +27,7 @@ const sumSalaries = (salaries) => {
   }
   return sum
 };
+
+const newHighScore = (high, scores) => {
+  return
+};
