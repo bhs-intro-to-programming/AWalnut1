@@ -29,7 +29,7 @@ const sumSalaries = (salaries) => {
 };
 
 const newHighScore = (high, scores) => {
-  for (let i=0; i > scores.length; i++) {
+  for (let i=0; i > scores.length; i++) 
  
   return high
 };
