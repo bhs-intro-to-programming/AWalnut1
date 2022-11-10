@@ -29,7 +29,7 @@ const sumSalaries = (salaries) => {
 };
 
 const newHighScore = (high, scores) => {
-  let newHigh = high
+  let high = newHigh
   for (let i=0; i > scores.length; i++)  {
     if (scores[i].score > high)
     let newHigh = scores[i].score
