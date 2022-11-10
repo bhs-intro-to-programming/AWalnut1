@@ -23,7 +23,7 @@ const midpoint = (p1,p2) => {
 const sumSalaries = (salaries) => {
   let sum=0
   for(let i=0; i < (salaries.length-1); i++) {
-    let sum = sum + salaries.i
+   sum = sum + salaries.i
   }
   return sum
 };
