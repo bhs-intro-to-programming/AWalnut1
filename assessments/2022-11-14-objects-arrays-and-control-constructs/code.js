@@ -27,9 +27,12 @@ const totalWithTip = (bill, tipPercentage) => {
   let money.tip = bill.subtotal * tipPercentage
   let money.total = bill.subtotal * (1+tipPercentage)
   return money
-};
+};// i give up
 
 const isWinner = (player) => {
+  if (player.score > 100) {
+    return true
+  }
 };
 
 const updateWins = (players) => {
