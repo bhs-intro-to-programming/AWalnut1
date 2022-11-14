@@ -32,6 +32,8 @@ const totalWithTip = (bill, tipPercentage) => {
 const isWinner = (player) => {
   if (player.score > 100) {
     return true
+  } else {
+    return false
   }
 };
 
