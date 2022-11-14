@@ -22,10 +22,10 @@ const isSamePoint = (p1, p2) => {
 };// cant for the life of me remember how to do proper if statments so were moving on
 
 const totalWithTip = (bill, tipPercentage) => {
-  let money = {'subtotal' : 0, 'tip' : 0, 'total' : 0}
-  let money.subtotal = bill.subtotal
-  let money.tip = bill.subtotal * tipPercentage
-  let money.total = bill.subtotal * (1+tipPercentage)
+  let money = {subtotal: '0', tip: '0', total: '0'}
+  money.subtotal = bill.subtotal
+  money.tip = bill.subtotal * tipPercentage
+  money.total = bill.subtotal * (1+tipPercentage)
   return money
 };
 
