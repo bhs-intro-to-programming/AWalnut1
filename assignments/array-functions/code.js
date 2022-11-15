@@ -41,7 +41,7 @@ const pyramid = (integer) => {
   let product = []
   for (let i = 0; i < integer; i++) {
     for (let j = 0; j < i; j++) {
-    product.push(j)
+    product.push(j+1)
     console.log(j)
     }
   }
