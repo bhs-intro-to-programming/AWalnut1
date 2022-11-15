@@ -14,6 +14,7 @@ const sum = (array) => {
   let numbers = 0;
   for (let i = 0; i < array.length; i++) {
     let numbers = (numbers + array[i])
+    console.log(numbers)
   }
   return numbers
 };
