@@ -35,4 +35,14 @@ const anyOverOneHundred = (array) => {
     }
   }
   return false
+}; // no comment
+
+const pyramid = (integer) => {
+  let product = []
+  for (let i = 0; i < integer; i++) {
+    for (let j = 0; j < i; j++) {
+    product.push[j]
+    }
+  }
+  return product
 };
