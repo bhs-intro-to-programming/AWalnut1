@@ -40,7 +40,7 @@ const anyOverOneHundred = (array) => {
 const pyramid = (integer) => {
   let product = []
   for (let i = 0; i < integer; i++) {
-    for (let j = 0; j < i+1; j++) {
+    for (let j = 0; j < i+; j++) {
     product.push(j)
     console.log(j)
     }
