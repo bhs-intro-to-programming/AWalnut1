@@ -42,8 +42,7 @@ const pyramid = (integer) => {
   for (let i = 0; i < integer; i++) {
     for (let j = 0; j < i+1; j++) {
     product.push(i+1)
-    console.log(i)
     }
   }
   return product
-};
+}; // im gonna be completely honest i have no fucking idea how this worked or why, if you could give a cool smart guy explanation i would appreciate it.
