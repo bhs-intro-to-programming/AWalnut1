@@ -8,4 +8,10 @@ const countTens = (array) => {
     }
   }
   return tens
+}; // i feel as if this could be simplified but whatever works, works
+
+const sum = (array) => {
+  let numbers = 0
+  
+  return
 };
