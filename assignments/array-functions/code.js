@@ -13,7 +13,7 @@ const countTens = (array) => {
 const sum = (array) => {
   let numbers = 0;
   for (let i = 0; i < array.length; i++) {
-     numbers = (numbers + array[i])
+    numbers = (numbers + array[i])
   }
   return numbers
 };// i put an extra, uneeded let in there like a MORON
@@ -40,8 +40,8 @@ const anyOverOneHundred = (array) => {
 const pyramid = (integer) => {
   let product = []
   for (let i = 0; i < integer; i++) {
-    for (let j = 0; j < i+1; j++) {
-    product.push(i+1)
+    for (let j = 0; j < i + 1; j++) {
+      product.push(i + 1)
     }
   }
   return product
