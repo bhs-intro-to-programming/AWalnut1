@@ -16,4 +16,4 @@ const sum = (array) => {
      numbers = (numbers + array[i])
   }
   return numbers
-};
+};// i put an extra, uneeded let in there like a MORON
