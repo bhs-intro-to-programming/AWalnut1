@@ -17,3 +17,13 @@ const sum = (array) => {
   }
   return numbers
 };// i put an extra, uneeded let in there like a MORON
+
+const evens = array => {
+  let numbers = 0
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] % 2 === 0) {
+      numbers++
+    }
+  }
+  return numbers
+};
