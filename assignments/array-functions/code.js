@@ -19,10 +19,10 @@ const sum = (array) => {
 };// i put an extra, uneeded let in there like a MORON
 
 const evens = array => {
-  let numbers = 0
+  let numbers = []
   for (let i = 0; i < array.length; i++) {
     if (array[i] % 2 === 0) {
-      numbers++
+      numbers.push(array[i])
     }
   }
   return numbers
