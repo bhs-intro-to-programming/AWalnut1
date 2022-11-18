@@ -15,10 +15,8 @@ const swapFrontAndBack = (s) => {
   return s.substring(cutOff, s.length) + s.substring(0, cutOff)
 };
 
-const simplePigLatin = (s) => {
-  let vowels = /[aeiou]/
-  let first = s.indexOf(vowels)
-  return first
+const simplePigLatin = (s, number) => {
+  return s.substring(number)
 }
 
 const isAllUpperCase = (s) => {
