@@ -17,5 +17,5 @@ const swapFrontAndBack = (s) => {
 };
 
 const isAllUpperCase = (s) => {
-  return s.toUpperCase
+  return s.toUpperCase()
 };
