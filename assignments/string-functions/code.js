@@ -24,7 +24,6 @@ const isAllUpperCase = (s) => {
 };
 
 const sameIgnoringCase = (s1, s2) => {
-  console.log(s1)
   if (s1.toUpperCase === s2.toUpperCase) {
     return true
   }
