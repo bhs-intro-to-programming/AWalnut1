@@ -16,6 +16,12 @@ const swapFrontAndBack = (s) => {
   return s.substring(cutOff, s.length) + s.substring(0, cutOff)
 };
 
+const simplePiglatin = (s) => {
+  let vowels = /[aeiou]/
+  let first = s.indexOf(vowels)
+  return first
+}
+
 const isAllUpperCase = (s) => {
   return s === s.toUpperCase()
 };
