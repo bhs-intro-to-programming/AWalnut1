@@ -15,3 +15,5 @@ const swapFrontAndBack = (s) => {
   console.log(cutOff)
   return s.substring(cutOff, s.length) + s.substring(0, cutOff)
 };
+
+const isAllUpperCase = (s) => s.toUpperCase
