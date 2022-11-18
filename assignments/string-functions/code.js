@@ -12,7 +12,6 @@ const firstAndLast = (s) => {
 
 const swapFrontAndBack = (s) => {
   let cutOff = Math.floor(s.length / 2)
-  console.log(cutOff)
   return s.substring(cutOff, s.length) + s.substring(0, cutOff)
 };
 
