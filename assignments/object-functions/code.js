@@ -33,6 +33,7 @@ const newHighScore = (high, scores) => {
   for (let i=0; i > scores.length; i++)  {
     if (scores[i].score > high)
     newHigh = scores[i].score
+    console.log(scores[i].score)
   }
  
   return newHigh
