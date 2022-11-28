@@ -32,7 +32,7 @@ const newHighScore = (high, scores) => {
   let newHigh = high
   for (let i=0; i > scores.length; i++)  {
     if (scores[i].score > high)
-    let newHigh = scores[i].score
+    newHigh = scores[i].score
   }
  
   return newHigh
