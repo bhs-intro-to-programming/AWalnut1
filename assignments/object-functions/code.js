@@ -35,6 +35,5 @@ const newHighScore = (high, scores) => {
     newHigh = scores[i].score
     console.log(scores[i].score)
   }
- 
   return newHigh
 };
