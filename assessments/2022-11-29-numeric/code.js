@@ -1,6 +1,4 @@
-const totalEggs = (hardEggsWanted, softEggsWanted) => {
-  return hardEggsWanted + softEggsWanted
-};
+const totalEggs = (hardEggsWanted, softEggsWanted) => { hardEggsWanted + softEggsWanted};
 
 const chocolatesPerPerson = (chocolates, numPeople) => {
   return Math.floor(chocolates / numPeople)
@@ -39,4 +37,4 @@ const wrappingCombos = (kindsOfPaper, kindsOfRibbons, kindsOfBows) => {
 
 const biggestNumber = (number) => {
   return 10 ** number - 1
-};
+}; // thanks for the hint, would have torn my hair out about this one without it
