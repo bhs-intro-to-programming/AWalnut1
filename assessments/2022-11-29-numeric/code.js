@@ -1,5 +1,5 @@
 const totalEggs = (hardEggsWanted, softEggsWanted) => {
-return hardEggsWanted + softEggsWanted
+  return hardEggsWanted + softEggsWanted
 };
 
 const chocolatesPerPerson = (chocolates, numPeople) => {
@@ -12,7 +12,11 @@ const extraChocolates = (chocolates, numPeople) => {
 
 const leftOut = (chocolates, numPeople) => {
   if (numPeople - chocolates > 0) {
-    return numPeople - chocolates 
+    return numPeople - chocolates
   }
   return 0
+};
+
+const probabilityAllHeads = (coinFlips) => {
+  return 0.5 ** coinFlips
 };
