@@ -1,5 +1,5 @@
-const totalEggs = (hardEggsWanted, softEggsWanted) => { 
-  return hardEggsWanted + softEggsWanted 
+const totalEggs = (hardEggsWanted, softEggsWanted) => {
+  return hardEggsWanted + softEggsWanted
 };
 
 const chocolatesPerPerson = (chocolates, numPeople) => {
