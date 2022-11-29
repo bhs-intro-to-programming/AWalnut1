@@ -22,5 +22,5 @@ const probabilityAllHeads = (coinFlips) => {
 };
 
 const futureHour = (currentHour, futureHours) => {
-  return currentHour % futureHours
+  return currentHour + (futureHours % 24)
 };
