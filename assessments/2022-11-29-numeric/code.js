@@ -38,3 +38,4 @@ const wrappingCombos = (kindsOfPaper, kindsOfRibbons, kindsOfBows) => {
 const biggestNumber = (number) => {
   return 10 ** number - 1
 }; // thanks for the hint, would have torn my hair out about this one without it
+// i know i submitted stuff after asking the pull request but it was just reformatting as it kinda looked like shit earlier
