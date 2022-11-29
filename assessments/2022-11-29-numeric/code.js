@@ -38,5 +38,5 @@ const wrappingCombos = (kindsOfPaper, kindsOfRibbons, kindsOfBows) => {
 };
 
 const biggestNumber = (number) => {
-  return 10**number -1
+  return 10 ** number - 1
 };
