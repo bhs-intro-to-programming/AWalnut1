@@ -15,7 +15,7 @@ const leftOut = (chocolates, numPeople) => {
     return numPeople - chocolates
   }
   return 0
-};
+}; //probably an easier way to do this
 
 const probabilityAllHeads = (coinFlips) => {
   return 0.5 ** coinFlips
@@ -31,4 +31,8 @@ const presentsBudget = (numFriends, avgPresentPrice) => {
 
 const perPresent = (totalMoney, presentsNeeded) => {
   return totalMoney / presentsNeeded
+}; // i remembered this one because i was suprised that "per" was a division term in the lecture the other day
+
+const wrapingCombos = (kindsOfPaper, kindsOfRibbons, kindsOfBows) => {
+  return kindsOfPaper * kindsOfRibbons * kindsOfBows
 };
