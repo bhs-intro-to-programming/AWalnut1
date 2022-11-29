@@ -33,6 +33,6 @@ const perPresent = (totalMoney, presentsNeeded) => {
   return totalMoney / presentsNeeded
 }; // i remembered this one because i was suprised that "per" was a division term in the lecture the other day
 
-const wrapingCombos = (kindsOfPaper, kindsOfRibbons, kindsOfBows) => {
+const wrappingCombos = (kindsOfPaper, kindsOfRibbons, kindsOfBows) => {
   return kindsOfPaper * kindsOfRibbons * kindsOfBows
 };
