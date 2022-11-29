@@ -9,3 +9,7 @@ const chocolatesPerPerson = (chocolates, numPeople) => {
 const extraChocolates = (chocolates, numPeople) => {
   return chocolates % numPeople
 };
+
+const leftOut = (chocolates, numPeople) => {
+  return Math.floor(chocolates / numPeople)
+};
