@@ -11,5 +11,8 @@ const extraChocolates = (chocolates, numPeople) => {
 };
 
 const leftOut = (chocolates, numPeople) => {
-  return Math.floor(chocolates / numPeople)
+  if (numPeople - chocolates > 0) {
+    return numPeople - chocolates 
+  }
+  return 0
 };
