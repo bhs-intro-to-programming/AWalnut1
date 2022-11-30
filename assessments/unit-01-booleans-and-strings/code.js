@@ -48,4 +48,9 @@ const simplePigLatin = (s, firstVowel) => {
 const randomCharacter = (s) => {
   let randy = rand(s.length)
   return s.substring(randy,randy+1)
+};//probably a simpler way to do this
+
+const randomCharacterUpDown = (s) => {
+  let randy = rand(s.length)
+  return s.toUpperCase(randy,randy+1)+s.toLowerCase(randy,randy+1)
 };
