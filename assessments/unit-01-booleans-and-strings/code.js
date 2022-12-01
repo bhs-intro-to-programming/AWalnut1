@@ -52,5 +52,5 @@ const randomCharacter = (s) => {
 
 const randomCharacterUpDown = (s) => {
   let randy = rand(s.length)
-  return s.toUpperCase(randy,randy+1)
+  return (randy,randy+1).toUpperCase()
 };
