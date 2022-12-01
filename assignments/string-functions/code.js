@@ -29,3 +29,7 @@ const sameIgnoringCase = (s1, s2) => {
   }
   return false
 };
+
+const firstHalf = (s) => {
+  return (s.substring(0), s.substring(s.length/2))
+};
