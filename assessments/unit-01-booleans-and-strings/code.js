@@ -60,4 +60,5 @@ const isAllUpperCase = (s) => {
   if (s = s.toUpperCase) {
     return true
   }
+  return false
 };
