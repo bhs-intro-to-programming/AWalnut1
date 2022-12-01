@@ -57,7 +57,7 @@ const randomCharacterUpDown = (s) => {
 };// i dont think theres an easier way to do this
 
 const isAllUpperCase = (s) => {
-  if (s = s.toUpperCase) {
+  if (s === s.toUpperCase) {
     return true
   }
   return false
