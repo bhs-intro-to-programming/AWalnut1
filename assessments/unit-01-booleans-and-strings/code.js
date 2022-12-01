@@ -52,7 +52,7 @@ const randomCharacter = (s) => {
 
 const randomCharacterUpDown = (s) => {
   let randy = rand(s.length)
-  let rander = s.substring(randy) 
+  let rander = s.substring(randy, randy+1) 
   console.log(rander)
   return s.toUpperCase(rander) + s.toLowerCase(rander) + rander
 };
