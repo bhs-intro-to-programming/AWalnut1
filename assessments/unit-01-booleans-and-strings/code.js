@@ -46,18 +46,18 @@ const simplePigLatin = (s, firstVowel) => {
 };
 
 const randomCharacter = (s) => {
-  let randy = rand(s.length)
-  return s.substring(randy,randy+1)
+  let randomLetterIndex = rand(s.length)
+  return s.substring(randomLetterIndex,randomLetterIndex+1)
 };//probably a simpler way to do this
 
 const randomCharacterUpDown = (s) => {
-  let randy = rand(s.length)
-  let rander = s.substring(randy, randy+1) 
-  return (rander).toUpperCase() + (rander).toLowerCase()
+  let randomLetterIndex = rand(s.length)
+  let randomLetter = s.substring(randomLetterIndex, randomLetterIndex+1) 
+  return (randomLetter).toUpperCase() + (randomLetter).toLowerCase()
 };// i dont think theres an easier way to do this
 
 const isAllUpperCase = (s) => {
-  if (s === s.toUpperCase) {
+  if (s === s.toUpperCase()) {
     return true
   }
   return false
