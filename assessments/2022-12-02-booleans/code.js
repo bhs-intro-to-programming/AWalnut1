@@ -17,9 +17,7 @@ const isVenomous = (striped, blueHead) => {
 };// probly a simpler way to do this one but im tired
 
 const okaySpeed = (speedLimit, currentSpeed) => {
-  if (speedLimit + 10 < currentSpeed) {
-    return false
-  } return true
+  return (speedLimit + 10) < currentSpeed
 };
 
 const twiceAsExpensive = (price1, price2) => {
