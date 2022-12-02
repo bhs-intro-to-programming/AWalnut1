@@ -26,8 +26,8 @@ const twiceAsExpensive = (price1, price2) => {
   return price1 > (price2 * 2)
 };
 
-const winningRecord = () => {
-  return
+const winningRecord = (wins, losses, ties) => {
+  return wins > (losses + ties)
 };
 
 const isMagicNumber = () => {
