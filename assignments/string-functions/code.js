@@ -91,6 +91,6 @@ const capitalize = (s) => {
   return (s.substring(0,1)).toUpperCase() + (s.substring(1,s.length)).toLowerCase()
 };
 
-const capitializeFirstThree = (s) => {
+const capitalizeFirstThree = (s) => {
   return (s.substring(0,3)).toUpperCase() + (s.substring(3,s.length)).toLowerCase()
 };
