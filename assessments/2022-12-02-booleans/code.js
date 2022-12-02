@@ -29,7 +29,7 @@ const winningRecord = (wins, losses, ties) => {
 };
 
 const isMagicNumber = (number) => {
-  if (number === 42 && number === 17) {
+  if (number === 42 || number === 17) {
     return true
   } return false
 }; // i do think the if statement is a must here, feel free to prove me wrong
