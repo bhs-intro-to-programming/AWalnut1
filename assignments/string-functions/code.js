@@ -51,5 +51,5 @@ const upDownLastCharacter = (s) => {
 };
 
 const firstName = (s) => {
-  return 
+  return s.substring(0, s.indexOf(" "))
 };
