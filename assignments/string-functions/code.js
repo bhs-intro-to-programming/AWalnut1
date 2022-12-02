@@ -70,22 +70,7 @@ const lastCharacter = (s) => {
   return s.substring(s.length-1)
 };
 
-const  = () => {
-  return 
+const allButFirst = (s) => {
+  return s.substring(1)
 };
 
-const  = () => {
-  return 
-};
-
-const  = () => {
-  return 
-};
-
-const  = () => {
-  return 
-};
-
-const  = () => {
-  return 
-};
