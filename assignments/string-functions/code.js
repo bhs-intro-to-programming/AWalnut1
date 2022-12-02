@@ -49,3 +49,7 @@ const everyOther = (s) => {
 const upDownLastCharacter = (s) => {
   return (s.substring(s.length-1)).toUpperCase() + (s.substring(s.length-1)).toLowerCase() 
 };
+
+const firstName = (s) => {
+  return 
+};
