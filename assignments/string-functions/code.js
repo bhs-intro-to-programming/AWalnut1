@@ -3,7 +3,10 @@ const findFnord = (s) => {
 };
 
 const stringContains = (s1, s2) => {
-  return
+  if (s1.indexOf(s2) >= 0) {
+    return true
+  }
+  return false
 };
 
 const firstAndLast = (s) => {
