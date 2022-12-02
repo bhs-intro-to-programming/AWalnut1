@@ -11,7 +11,7 @@ const needMittens = (goingOutside, warm) => {
 };
 
 const isVenomous = (striped, blueHead) => {
-  return !striped && blueHead
+  return (striped || !striped) && !(striped && blueHead)
 };// probly a simpler way to do this one but im tired
 
 const okaySpeed = (speedLimit, currentSpeed) => {
