@@ -37,3 +37,8 @@ const isMagicNumber = (number) => {
     return true
   } return false
 };
+// im gonna be completely honest, i have no idea why 17 is a magic number
+// i can take a guess that 42 is a reference to the hitchhikers guide to the galaxy
+// but i am completely stumped on 17
+// could also be a reference
+// most likely is
