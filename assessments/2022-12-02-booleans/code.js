@@ -39,3 +39,5 @@ const isMagicNumber = (number) => {
 // but i am completely stumped on 17
 // could also be a reference
 // most likely is
+
+// went back after submitting the request to double check, had okaySpeed all wrong and isMagicNumber way more complicated than it needed to be
