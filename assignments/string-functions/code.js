@@ -53,3 +53,7 @@ const upDownLastCharacter = (s) => {
 const firstName = (s) => {
   return s.substring(0, s.indexOf(" "))
 };
+
+const lastName = (s) => {
+  return s.substring(s.indexOf(" "))
+};
