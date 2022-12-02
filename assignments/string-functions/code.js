@@ -85,3 +85,8 @@ const allButFirstAndList = (s) => {
 const lastThree = (s) => {
   return s.substring(s.length-3,s.length)
 };
+
+
+const capitialize = (s) => {
+  return (s.substring(0,1)).toUpperCase + (s.substring(1,s.length)).toLowerCase
+};
