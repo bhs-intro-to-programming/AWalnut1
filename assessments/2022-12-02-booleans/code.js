@@ -30,8 +30,8 @@ const winningRecord = (wins, losses, ties) => {
   return wins > (losses + ties)
 };
 
-const isMagicNumber = (magicNumber) => {
-  if (magicNumber = 42) {
+const isMagicNumber = (number) => {
+  if (number = 42) {
     return true
   } return false
 };
