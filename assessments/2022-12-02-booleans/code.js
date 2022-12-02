@@ -14,4 +14,22 @@ const isVenomous = (striped, blueHead) => {
   if (!striped && blueHead) {
     return true
   } return false
+};// probly a simpler way to do this one but im tired
+
+const okaySpeed = (speedLimit, currentSpeed) => {
+  if (speedLimit + 10 < currentSpeed) {
+    return false
+  } return true
+};
+
+const twiceAsExpensive = () => {
+  return
+};
+
+const winningRecord = () => {
+  return
+};
+
+const isMagicNumber = () => {
+  return
 };
