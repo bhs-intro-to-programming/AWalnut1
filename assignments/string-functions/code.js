@@ -43,11 +43,11 @@ const upDown = (s) => {
 };
 
 const everyOther = (s) => {
-  return s.substring(0,1) + s.substring(2,3) + s.substring(4,5)
+  return s.substring(0, 1) + s.substring(2, 3) + s.substring(4, 5)
 };
 
 const upDownLastCharacter = (s) => {
-  return (s.substring(s.length-1)).toUpperCase() + (s.substring(s.length-1)).toLowerCase() 
+  return (s.substring(s.length - 1)).toUpperCase() + (s.substring(s.length - 1)).toLowerCase()
 };
 
 const firstName = (s) => {
@@ -55,9 +55,13 @@ const firstName = (s) => {
 };
 
 const lastName = (s) => {
-  return s.substring(s.indexOf(" ")+1)
+  return s.substring(s.indexOf(" ") + 1)
 };
 
-const concatenate = (s1,s2) => {
-  return s1+s2
+const concatenate = (s1, s2) => {
+  return s1 + s2
+};
+
+const firstCharacter = (s) => {
+  return s.substring(0,1)
 };
