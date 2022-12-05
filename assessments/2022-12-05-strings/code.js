@@ -35,6 +35,6 @@ const capitalize = (s) => {
 
 const capitalizeName = (s) => {
   let s1 = s.substring(0,s.indexOf(' '))
-  let s2 = s.substring(s.indexOf(' '), s.length)
-  return capitalize(s2)
+  let s2 = s.substring(s.indexOf(' ')+1, s.length)
+  return capitalize(s1) + capitalize(s2)
 };
