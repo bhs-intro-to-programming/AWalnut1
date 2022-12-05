@@ -12,8 +12,8 @@ const middle = (s) => {
   return s.substring (quarter, (s.length-quarter))
 };
 
-const pair = () => {
-  return
+const pair = (s1, s2) => {
+  return s1 + 'and' + s2
 };
 
 const containsX = () => {
