@@ -1,5 +1,6 @@
 const upToX = (s) => {
   let x = s.indexOf('x')
+  console.log(x)
   return s.substring(0, x)
 };
 
