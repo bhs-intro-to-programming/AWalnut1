@@ -5,28 +5,29 @@ const upToX = (s) => {
 
 const charactersAround = (s, index) => {
   return s.substring (index-1, index) + s.substring (index+1, index+2)
-}
+};
 
-const middle = () => {
-  return
-}
+const middle = (s) => {
+  let quarter = s.length/4
+  return s.substring (quarter, (s.length-quarter))
+};
 
 const pair = () => {
   return
-}
+};
 
 const containsX = () => {
   return
-}
+};
 
 const slug = () => {
   return
-}
+};
 
 const capitalize = () => {
   return
-}
+};
 
 const capitalizeName = () => {
   return
-}
+};
