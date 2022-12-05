@@ -1,15 +1,15 @@
 const upToX = (s) => {
   let x = s.indexOf('x')
-  return s.substring(0,x)
+  return s.substring(0, x)
 }; // i changed nothing and it worked ok
 
 const charactersAround = (s, index) => {
-  return s.substring (index-1, index) + s.substring (index+1, index+2)
+  return s.substring(index - 1, index) + s.substring(index + 1, index + 2)
 };
 
 const middle = (s) => {
-  let quarter = s.length/4
-  return s.substring (quarter, (s.length-quarter))
+  let quarter = s.length / 4
+  return s.substring(quarter, (s.length - quarter))
 };
 
 const pair = (s1, s2) => {
@@ -28,7 +28,7 @@ const slug = (s1, s2, s3) => {
 };
 
 const capitalize = (s) => {
-  return s.toUpperCase(s.substring(0,1))
+  return .toUpperCase(s.substring(0, 1))
 };
 
 const capitalizeName = () => {
