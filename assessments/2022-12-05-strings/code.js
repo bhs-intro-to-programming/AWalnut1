@@ -1,14 +1,13 @@
 const upToX = (s) => {
   return s.substring(0, s.indexOf('x'))
-}; // i changed nothing and it worked ok
+}; 
 
 const charactersAround = (s, index) => {
   return s.substring(index - 1, index) + s.substring(index + 1, index + 2)
 };
 
 const middle = (s) => {
-  let quarter = s.length / 4
-  return s.substring(quarter, (s.length - quarter))
+  return s.substring(s.length / 4, (s.length - s.length / 4))
 };
 
 const pair = (s1, s2) => {
