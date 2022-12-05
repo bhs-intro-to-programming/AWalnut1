@@ -16,8 +16,11 @@ const pair = (s1, s2) => {
   return s1 + ' and ' + s2
 };
 
-const containsX = () => {
-  return
+const containsX = (s) => {
+  if (s.indexOf('x') > 0) {
+    return true
+  }
+  return false
 };
 
 const slug = () => {
