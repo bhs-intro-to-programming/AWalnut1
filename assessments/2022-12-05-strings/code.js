@@ -1,5 +1,6 @@
 const upToX = (s) => {
-  return s.indexOf('x')
+  let x = s.indexOf('x')
+  return s.substring(0, x)
 };
 
 const charactersAround = () => {
