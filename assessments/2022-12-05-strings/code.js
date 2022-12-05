@@ -23,8 +23,8 @@ const containsX = (s) => {
   return false
 };
 
-const slug = () => {
-  return
+const slug = (s1, s2, s3) => {
+  return s1.toLowerCase
 };
 
 const capitalize = () => {
