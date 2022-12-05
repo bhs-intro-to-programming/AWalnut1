@@ -29,8 +29,12 @@ const slug = (s1, s2, s3) => {
 
 const capitalize = (s) => {
   return s.substring(0,1).toUpperCase() + s.substring(1,s.length).toLowerCase()
-};
+}; // every time i do a function with the fukin .toUpper/LowerCases i have to relearn the stupid way they work
+// and EVERY TIME IT MAKES PERFECT SENSE AFTER THE FACT
+// i just wish i could do s.toUpperCase(0,1) and be done with it
 
-const capitalizeName = () => {
-  return
+const capitalizeName = (s) => {
+  let s1 = s.substring(0,s.indexOf(' '))
+  let s2 = s.substring(s.indexOf(' '), s.length)
+  return capitalize(s1) + capitalize(s2)
 };
