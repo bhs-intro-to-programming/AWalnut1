@@ -15,10 +15,7 @@ const pair = (s1, s2) => {
 };
 
 const containsX = (s) => {
-  if (s.indexOf('x') > 0) {
-    return true
-  }
-  return false
+  return s.indexOf('x') > 0
 };
 
 const slug = (s1, s2, s3) => {
