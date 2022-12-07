@@ -93,10 +93,16 @@ const firstOk = (n) => {
       return x
     }
   }
-};
+}; // not touching this one anymore it confuses and frightens me
 
 const timeToLeet = () => {
-  return
+  let time = 0
+  for (let x=0; x++;) {
+    time++
+    if (isLeet(random10k())) {
+      return time
+    }
+  }
 };
 
 const classify = () => {
