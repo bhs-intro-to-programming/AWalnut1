@@ -83,10 +83,16 @@ const logIfOk = (x) => {
   if (isOk(x) === true) {
     log(x)
   }
-};
+}; // im gonna be honest this is a lot of information to be dumping on us at once
+// I have no idea if this is even correct as the values are "essentially 
+// random but stable" so im just gonna assume i did good and move on
 
-const firstOk = () => {
-  return
+const firstOk = (n) => {
+  for (let x=n; isOk(n) !== true; x++) {
+    if (isOk(n) === true) {
+      return n
+    }
+  }
 };
 
 const timeToLeet = () => {
