@@ -97,13 +97,14 @@ const firstOk = (n) => {
 
 const timeToLeet = () => {
   let time = 0
-  for (let x=0; x> 10000; x++) {
+  for (let x=0; x++;) {
     if (isLeet(random10k())) {
       return time
     }
     time++
   }
-};
+};// i feel as if you are dropping too much info on us all at once
+// but then again i never was good at control constructs so maybe im idiot
 
 const classify = () => {
   return
