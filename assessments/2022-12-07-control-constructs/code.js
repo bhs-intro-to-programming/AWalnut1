@@ -89,8 +89,8 @@ const logIfOk = (x) => {
 
 const firstOk = (n) => {
   for (let x=n; isOk(n) !== true; x++) {
-   return n
-  }
+    log(n)
+  } return n
 };
 
 const timeToLeet = () => {
