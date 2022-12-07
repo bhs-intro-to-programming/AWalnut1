@@ -97,7 +97,7 @@ const firstOk = (n) => {
 
 const timeToLeet = () => {
   let time = 0
-  for (let x=0; x< 10000; x++) {
+  for (let x=0; x< Math.inf(); x++) {
     random10k();
     console.log(random10k());
     if (isLeet(random10k())) {
@@ -105,6 +105,7 @@ const timeToLeet = () => {
     }
     time++
   }// this returns undefined if it goes over 10000 loops but i think thats a small enough chance for no one to notice
+  // is there like a Math.inf() i should know about?
 };// i feel as if you are dropping too much info on us all at once
 // but then again i never was good at control constructs so maybe im idiot
 
