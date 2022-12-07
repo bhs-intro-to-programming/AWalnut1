@@ -104,7 +104,7 @@ const timeToLeet = () => {
       return time
     }
     time++
-  }
+  }return 'bad'
 };// i feel as if you are dropping too much info on us all at once
 // but then again i never was good at control constructs so maybe im idiot
 
