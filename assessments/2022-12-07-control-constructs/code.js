@@ -97,7 +97,7 @@ const firstOk = (n) => {
 
 const timeToLeet = () => {
   let time = 0
-  for (let x=0; x< Math.inf(); x++) {
+  for (let x=0; x< 10000; x++) {
     random10k();
     console.log(random10k());
     if (isLeet(random10k())) {
