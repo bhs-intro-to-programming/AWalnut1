@@ -98,10 +98,10 @@ const firstOk = (n) => {
 const timeToLeet = () => {
   let time = 0
   for (let x=0; x++;) {
-    time++
     if (isLeet(random10k())) {
       return time
     }
+    time++
   }
 };
 
