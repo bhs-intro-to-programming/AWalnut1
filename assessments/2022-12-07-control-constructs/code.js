@@ -97,14 +97,14 @@ const firstOk = (n) => {
 
 const timeToLeet = () => {
   let time = 0
-  for (let x=0; x++;) {
+  for (let x=0; x< 10000; x++) {
     random10k();
     console.log(random10k());
     if (isLeet(random10k())) {
       return time
     }
     time++
-  }return 'bad'
+  }return 'you fuked it' // this is just incase it returns undefined for ending instead of me being bad'
 };// i feel as if you are dropping too much info on us all at once
 // but then again i never was good at control constructs so maybe im idiot
 
