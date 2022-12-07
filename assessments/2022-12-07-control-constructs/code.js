@@ -88,9 +88,12 @@ const logIfOk = (x) => {
 // random but stable" so im just gonna assume i did good and move on
 
 const firstOk = (n) => {
-  for (let x=n; isOk(n) !== true; x++) {
+  for (let x=0; x > n; x++) {
     log(n)
-  } return n
+    if (isOk(x) === true) {
+      return x
+    }
+  }
 };
 
 const timeToLeet = () => {
