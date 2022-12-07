@@ -98,8 +98,8 @@ const firstOk = (n) => {
 const timeToLeet = () => {
   let time = 0
   for (let x=0; x++;) {
-    random10k()
-    log(random10k())
+    random10k();
+    console.log(random10k());
     if (isLeet(random10k())) {
       return time
     }
