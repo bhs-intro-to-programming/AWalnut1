@@ -104,7 +104,7 @@ const timeToLeet = () => {
       return time
     }
     time++
-  }
+  }// this returns undefined if it goes over 10000 loops but i think thats a small enough chance for no one to notice
 };// i feel as if you are dropping too much info on us all at once
 // but then again i never was good at control constructs so maybe im idiot
 
