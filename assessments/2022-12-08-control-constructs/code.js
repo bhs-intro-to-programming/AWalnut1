@@ -18,7 +18,7 @@ const countXs = (s) => {
 
 const timesTable = (n) => {
   return
-};
+}; // complicated :(
 
 const containsX = (s) => {
   for (let i = 0; i < s.length; i++) {
@@ -28,7 +28,7 @@ const containsX = (s) => {
     }
     return false
   }
-};// THIS SHOULD BE LOOPING WHY ISNT ITAAAAAAAA
+};// THIS SHOULD BE LOOPING WHY ISNT IT AAAAAAAA
 
 const sumSquares = (n) => {
   let sum = 0
@@ -37,4 +37,4 @@ const sumSquares = (n) => {
     console.log(sum)
   }
   return sum
-};
+}; // doing this first only adds to my confusion WHY ISNT containsX NOT LOOPING AAAAAAAA
