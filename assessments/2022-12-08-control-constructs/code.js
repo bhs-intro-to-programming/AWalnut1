@@ -29,11 +29,12 @@ const containsX = (s) => {
     return false
   }
 };// THIS SHOULD BE LOOPING WHY ISNT IT AAAAAAAA
+// im going fucking insane why isnt this wokring
 
 const sumSquares = (n) => {
   let sum = 0
-  for (let i=0; i < n; i++) {
-    sum = sum + i**2
+  for (let i = 0; i < n; i++) {
+    sum = sum + i ** 2
     console.log(sum)
   }
   return sum
