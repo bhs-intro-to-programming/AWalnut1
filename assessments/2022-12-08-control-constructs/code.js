@@ -21,9 +21,9 @@ const timesTable = (n) => {
 };
 
 const containsX = (s) => {
-  for (let l = 0; l < s.length; l++) {
-    console.log(l)
-    if (s[l] === 'x') {
+  for (let i = 0; i < s.length; i++) {
+    console.log(i)
+    if (s[i] === 'x') {
       return true
     }
     return false
