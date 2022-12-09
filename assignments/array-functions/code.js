@@ -1,46 +1,48 @@
-const countTens = (xs) => {
-  let tens = 0
-  for (let i = 0; i < xs.length; i++) {
-    if (xs[i] === 10) {
+// doing this new on 11/15/22 as my arrays is a 1/4
+
+const countTens = (array) => {
+  let tens = 0;
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] === 10) {
       tens++
     }
   }
-  return tens;
-}; // thanks for the lecture thing it helped :)
+  return tens
+}; // i feel as if this could be simplified but whatever works, works
 
-const sum = (xs) => {
+const sum = (array) => {
   let numbers = 0;
-  for (let i = 0; i < xs.length; i++) {
-    numbers = numbers + xs[i];
+  for (let i = 0; i < array.length; i++) {
+    numbers = (numbers + array[i])
   }
   return numbers
-}; // i forgot to put a return function whoopsy daisy
+};// i put an extra, uneeded let in there like a MORON
 
-const evens = (xs) => {
-  let evenNumbers = []
-  for (let i = 0; i < xs.length; i++) {
-    if (xs[i] % 2 === 0) {
-      evenNumbers.push(xs[i])
+const evens = array => {
+  let numbers = []
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] % 2 === 0) {
+      numbers.push(array[i])
     }
   }
-  return evenNumbers
-};
+  return numbers
+}; // misread the problem first time around, got it tho
 
-const anyOverOneHundred = (xs) => {
-  for (let i = 0; i < xs.length; i++) {
-    if (xs[i] > 100)
+const anyOverOneHundred = (array) => {
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] > 100) {
       return true
+    }
   }
   return false
-};
+}; // no comment
 
-const pyramid = (number) => {
-  let theMid = []
-  for (let i = 0; i < number; i++) {
-    for (let j = -1; j < i; j++) {
-      console.log(j)
-      theMid.push(i+1)
+const pyramid = (integer) => {
+  let product = []
+  for (let i = 0; i < integer; i++) {
+    for (let j = 0; j < i + 1; j++) {
+      product.push(i + 1)
     }
   }
-  return theMid
-};
+  return product
+}; // im gonna be completely honest i have no fucking idea how this worked or why, if you could give a cool smart guy explanation i would appreciate it.
