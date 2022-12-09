@@ -34,5 +34,38 @@ const isLeapYear = (year) => {
 }; 
 
 const firstAndLast = (s) => {
-  return s.substring(0) + s.substring(s.length - 1)
+  return s.substring(0,1) + s.substring(s.length - 1)
+};
+
+const swapFrontAndBack = (s) => {
+  return s.substring(s.length/2, s.length) + s.substring(0, (s.length/2))
+};
+
+const simplePigLatin = (s, firstVowel) => {
+  return s.substring(firstVowel-1,s.length) + s.substring(0,firstVowel-1) + 'ay'
+};
+
+const randomCharacter = (s) => {
+  let randomLetterIndex = rand(s.length)
+  return s.substring(randomLetterIndex,randomLetterIndex+1)
+};//probably a simpler way to do this
+
+const randomCharacterUpDown = (s) => {
+  let randomLetterIndex = rand(s.length)
+  let randomLetter = s.substring(randomLetterIndex, randomLetterIndex+1) 
+  return (randomLetter).toUpperCase() + (randomLetter).toLowerCase()
+};// i dont think theres an easier way to do this
+
+const isAllUpperCase = (s) => {
+  if (s === s.toUpperCase()) {
+    return true
+  }
+  return false
+};
+
+const sameIgnoringCase = (s1, s2) => {
+  if(s1.toUpperCase() === s2.toUpperCase()) {
+    return true
+  }
+  return false
 };
