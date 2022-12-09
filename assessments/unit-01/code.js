@@ -9,20 +9,20 @@ const averageWeight = (w, n) => {
   return w / n
 }
 
-//const hypotenuse = (a, b) => {
-//  let a**2 + b**2 = c**2
-//  return c
-//}; well get back to you
+const hypotenuse = (a, b) => {
+  let cSquared = a**2 + b**2 
+  return Math.sqrt(cSquared)
+};
 
-//const maxRadius = (w, h) => {
-//  let Math.min (w, h) = smaller
-//  return smaller / 2
-//};and you
+const maxRadius = (w, h) => {
+  let  smaller = Math.min (w, h) 
+  return smaller / 2
+};
 
-//const numCircles = (w,r ) => {
-//  let w/r = circles
-//  return Math.floor(circles)
-//}; this should totally work but i want to have at least ONE done so were moving on
+const numCircles = (w,r ) => {
+  let  = circles = w/(r * 2)
+  return Math.floor(circles)
+}; 
 
 //const offset not even gonna try this one
 
@@ -31,7 +31,7 @@ const canSleepIn = (weekday, vacation) => {
 };
 
 const canGoToProm = (senior, invited, exclusion) => {
-  return senior || invited && !exclusion
+  return (senior || invited) && !exclusion
 };
 
 const getsSpeedingTicket = (mph, grouchy) => {
