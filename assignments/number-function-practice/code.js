@@ -19,6 +19,7 @@ const addButThenAddOneMore = (a, b) => {
 const nothing = (a,b) => {
   return [a,b]
 }; // i read your thing on the PR, sad i cant fufill my true creative vision but this will have to do
+//im back 2 months later and its basically what i wanted, just in array form.
 
 const cubed = (a) => {
   return a ** 3
