@@ -16,8 +16,8 @@ const addButThenAddOneMore = (a, b) => {
   return (a + b) + 1
 }; // i thought it would be funny, could be shortened to just addOneMore
 
-const nothing = (a) => {
-  return (a)
+const nothing = (a,b) => {
+  return [a,b]
 }; // i read your thing on the PR, sad i cant fufill my true creative vision but this will have to do
 
 const cubed = (a) => {
