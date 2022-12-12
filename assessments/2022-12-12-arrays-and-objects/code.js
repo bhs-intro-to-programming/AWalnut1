@@ -2,8 +2,8 @@ const makeRow = () => ['', '', '']
 
 const makeBoard = () => [makeRow(), makeRow(), makeRow()]
 
-const makeMove = () => {
-  return
+const makeMove = (mark, row, collum) => {
+  return {mark: mark, row: row, collum: collum}
 };
 
 const placeMark = () => {
