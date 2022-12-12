@@ -4,10 +4,10 @@ const makeBoard = () => [makeRow(), makeRow(), makeRow()]
 
 const makeMove = (mark, row, collum) => {
   return {mark: mark, row: row, collum: collum}
-};
+}; // i tried to do it shorthand, didnt work, might just be a skill issue
 
-const placeMark = () => {
-  return
+const placeMark = (board, move) => {
+  return board.push(move)
 };
 
 const allTheSame = () => {
