@@ -7,7 +7,7 @@ const makeMove = (mark, row, collum) => {
 }; // i tried to do it shorthand, didnt work, might just be a skill issue
 
 const placeMark = (board, move) => {
-  return board.push(move[row][collum])
+  return board.push(move([row][collum]))
 };
 
 const allTheSame = () => {
