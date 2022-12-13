@@ -35,7 +35,6 @@ const sumSquares = (n) => {
   let sum = 0
   for (let i = 0; i < n; i++) {
     sum = sum + i ** 2
-    console.log(sum)
   }
   return sum
 }; // doing this first only adds to my confusion WHY ISNT containsX NOT LOOPING AAAAAAAA
