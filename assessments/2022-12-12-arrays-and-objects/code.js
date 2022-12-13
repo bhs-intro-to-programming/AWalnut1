@@ -2,7 +2,7 @@ const makeRow = () => ['', '', '']
 
 const makeBoard = () => [makeRow(), makeRow(), makeRow()]
 
-const makeMove = (mark, row, collum) => ({mark: mark, row: row, collum: collum})
+const makeMove = (mark, row, column) => ({mark: mark, row: row, column})
  // i tried to do it shorthand, didnt work, might just be a skill issue
 
 const placeMark = (board, move) => {
