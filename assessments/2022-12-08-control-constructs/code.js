@@ -26,8 +26,8 @@ const containsX = (s) => {
     if (s[i] === 'x') {
       return true
     }
-    return false
   }
+    return false
 };// THIS SHOULD BE LOOPING WHY ISNT IT AAAAAAAA
 // im going fucking insane why isnt this wokring
 // its gonna be some really mundane shit like a slight typo that i missed or something and im gonna be fucking LIVID
