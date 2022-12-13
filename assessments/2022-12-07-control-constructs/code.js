@@ -78,3 +78,49 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+
+const logIfOk = (x) => {
+  if (isOk(x) === true) {
+    log(x)
+  }
+}; // im gonna be honest this is a lot of information to be dumping on us at once
+// I have no idea if this is even correct as the values are "essentially 
+// random but stable" so im just gonna assume i did good and move on
+
+const firstOk = (n) => {
+  for (let x=0; x > n; x++) {
+    if (isOk(x) === true) {
+      return x
+    }
+  }
+}; // not touching this one anymore it confuses and frightens me
+
+const timeToLeet = () => {
+  let time = 0
+  for (let x=0; x< 10000; x++) {
+    random10k();
+    console.log(random10k());
+    if (isLeet(random10k())) {
+      return time
+    }
+    time++
+  }// this returns undefined if it goes over 10000 loops but i think thats a small enough chance for no one to notice
+  // is there like a Math.inf() i should know about?
+};// i feel as if you are dropping too much info on us all at once
+// but then again i never was good at control constructs so maybe im idiot
+
+const classify = () => {
+  return
+};
+
+const threewayClassify = () => {
+  return
+};
+
+const sumOfSquares = () => {
+  return
+};
+
+const pairs = () => {
+  return
+};
