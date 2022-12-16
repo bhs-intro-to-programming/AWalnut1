@@ -179,6 +179,8 @@ const isWinner = (scores) => {
 };
 
 const updateWins = (scores) => {
-  if scores[]
+  if (isWinner(scores.score)) === true; {
+    scores.wins=scores.wins++
+  }
   return 'undefined'
 };
