@@ -124,6 +124,6 @@ const fillTimesTable = (array) => {
 
 const sums = (n) => {
   let sum = []
-  for (let i=0; i <)
+  for (let i=0; i < n; i++)
   return
 };
