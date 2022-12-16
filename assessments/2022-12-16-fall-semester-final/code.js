@@ -97,7 +97,7 @@ const pair = (a, b) => {
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
 
-// just to copy past becuz im lazy
+// just to copy paste becuz im lazy
 const thing = () => {
   return
 }; // also theres 2 less control construct problems than the website thinks there is
@@ -176,4 +176,9 @@ const higherPaid = (employee1, employee2) => {
 
 const isWinner = (scores) => {
   return scores.score > 100
+};
+
+const updateWins = (scores) => {
+  if scores[]
+  return 'undefined'
 };
