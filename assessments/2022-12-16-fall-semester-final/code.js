@@ -179,7 +179,7 @@ const isWinner = (scores) => {
 };
 
 const updateWins = (scores) => {
-  if (isWinner(scores.score)) === true; {
+  if (isWinner(scores.score)); {
     scores.wins=scores.wins++
   }
   return 'undefined'
