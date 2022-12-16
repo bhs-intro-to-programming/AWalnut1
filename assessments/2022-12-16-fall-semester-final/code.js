@@ -105,3 +105,11 @@ const thing = () => {
 const allTheSame = (a) => {
   return a[0] === a[1] && a[1] === a[2]
 };
+
+const extractColumn = (board, collumn) => {
+  let extraction = []
+  for (let i = 0; i < board.length; i++) {
+    extraction.push(board[collumn])
+  }
+  return extraction
+};
