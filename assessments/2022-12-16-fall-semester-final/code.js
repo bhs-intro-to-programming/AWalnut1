@@ -161,8 +161,8 @@ const area = (rect) => {
 
 const totalWithTip = (subtotal, tip) => {
   let totals = {}
-  totals.subtotal[subtotal.subtotal]
-  totals.tip[subtotal.subtotal*tip]
-  totals.total[(subtotal.subtotal*tip) + subtotal.subtotal]
+  totals.subtotal=subtotal.subtotal
+  totals.tip=subtotal.subtotal*tip
+  totals.total=(subtotal.subtotal*tip) + subtotal.subtotal
   return totals
 };
