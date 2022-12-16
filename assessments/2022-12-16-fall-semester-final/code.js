@@ -194,3 +194,7 @@ const bigWinners = (scores) => {
   }
   return bigBoys
 };
+
+const makeMove = (mark, row, column) => {
+  return {mark, row, column}
+};
