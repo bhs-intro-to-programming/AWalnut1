@@ -120,7 +120,7 @@ const fillTimesTable = (array) => {
     table.push(emit(i + 1, (i + 1) * 2, (i + 1) * 3))
   }
   return table
-};
+};// im gonna be honest i have no fikin idea what emit does so uuuuh idk how to do this
 
 const sums = (n) => {
   let sum = 0
@@ -129,4 +129,14 @@ const sums = (n) => {
     summy.push(sum = sum + i)
   }
   return summy
+};
+
+const rule110 = (array) => {
+  let newArray = []
+  for (let i=0; i < array.length; i++) {
+    if (array[i-1, i ,i+1] = 0) {
+      newArray.push(0)
+    }
+  }
+  return newArray
 };
