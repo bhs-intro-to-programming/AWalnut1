@@ -166,3 +166,10 @@ const totalWithTip = (subtotal, tip) => {
   totals.total=(subtotal.subtotal*tip) + subtotal.subtotal
   return totals
 };
+
+const higherPaid = (employee1, employee2) => {
+  if (employee1.salary > employee2.salary) {
+    return employee1
+  }
+  return employee2
+}
