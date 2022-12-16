@@ -189,7 +189,7 @@ const bigWinners = (scores) => {
   let bigBoys = []
   for (let i=0; i < scores.length; i++) {
     if (scores[i].wins > 10) {
-      bigBoys.push(scores)
+      bigBoys.push(scores[i])
     }
   }
   return bigBoys
