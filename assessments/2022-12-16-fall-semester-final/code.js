@@ -116,14 +116,17 @@ const extractColumn = (board, collumn) => {
 
 const fillTimesTable = (array) => {
   let table = []
-  for (let i=0; i < array.length; i++) {
-    table.push(emit(i+1, (i+1)*2, (i+1)*3))
+  for (let i = 0; i < array.length; i++) {
+    table.push(emit(i + 1, (i + 1) * 2, (i + 1) * 3))
   }
   return table
 };
 
 const sums = (n) => {
-  let sum = []
-  for (let i=0; i < n; i++)
-  return
+  let sum = 0
+  let summy = []
+  for (let i = 0; i < n; i++) {
+    summy.push(sum = sum + i)
+  }
+  return summy
 };
