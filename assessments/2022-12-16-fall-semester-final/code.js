@@ -113,3 +113,7 @@ const extractColumn = (board, collumn) => {
   }
   return extraction
 };
+
+const fillTimesTable = (array) => {
+  return emit()
+};
