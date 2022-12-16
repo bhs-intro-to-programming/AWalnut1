@@ -158,3 +158,11 @@ const isSamePoint = (point1, point2) => {
 const area = (rect) => {
   return rect.width * rect.height
 };
+
+const totalWithTip = (subtotal, tip) => {
+  let totals = {}
+  totals.push(subtotal.subtotal)
+  totals.push(subtotal.subtotal*tip)
+  totals.push((subtotal.subtotal*tip) + subtotal.subtotal)
+  return totals
+};
