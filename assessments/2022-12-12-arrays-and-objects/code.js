@@ -1,12 +1,11 @@
-const makeRow = () => ['', '', '']
+const makeRow = () => [' ', ' ', ' ']
 
 const makeBoard = () => [makeRow(), makeRow(), makeRow()]
 
-const makeMove = (mark, row, column) => ({mark: mark, row: row, column})
- // i tried to do it shorthand, didnt work, might just be a skill issue
+const makeMove = (mark, row, collumn,) => ({mark, row, collumn})
 
 const placeMark = (board, move) => {
-  return board.push(move(mark[mark], row[row], collum[collum]))
+  return board[row][collumn].push(move)
 };
 
 const allTheSame = () => {
