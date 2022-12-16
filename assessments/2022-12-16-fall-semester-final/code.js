@@ -152,5 +152,5 @@ const rule110 = (array) => {
 //and it crashes the website so god only knows what would happen if i finished it
 
 const isSamePoint = (point1, point2) => {
-  return point1 === point2
+  return point1[x] === point2[x] && point1[y] === point2[y]
 };
