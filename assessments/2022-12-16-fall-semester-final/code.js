@@ -100,7 +100,8 @@ const pair = (a, b) => {
 // just to copy past becuz im lazy
 const thing = () => {
   return
-};
+}; // also theres 2 less control construct problems than the website thinks there is
+// so everything after that is 2 behind what it thinks.
 
 const makeRow = () => {
   return [' ', ' ', ' ']
@@ -147,8 +148,9 @@ const rule110 = (array) => {
     }
   }
   return newArray
-};// this is only half of the weird ass thing ur asking us to do with this this one and it crashes the website god only knows what would happen if i finished it
+};// this is only half of the weird ass thing ur asking us to do with this this one 
+//and it crashes the website so god only knows what would happen if i finished it
 
-const isSamePoint = () => {
-  return
+const isSamePoint = (point1, point2) => {
+  return point1 === point2
 };
