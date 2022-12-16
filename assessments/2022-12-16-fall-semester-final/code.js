@@ -183,4 +183,14 @@ const updateWins = (scores) => {
     scores.wins=scores.wins++
   }
   return 'undefined'
+};// cant really test this one so im just gonna assume it works
+
+const bigWinners = (scores) => {
+  let bigBoys = []
+  for (let i=0; i < scores.length; i++) {
+    if (scores.wins > 10) {
+      bigBoys.push(scores)
+    }
+  }
+  return bigBoys
 };
