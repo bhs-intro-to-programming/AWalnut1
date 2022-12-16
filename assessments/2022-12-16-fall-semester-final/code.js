@@ -129,7 +129,7 @@ const fillTimesTable = (array) => {
     table.push(emit(i + 1, (i + 1) * 2, (i + 1) * 3))
   }
   return table
-};// im gonna be honest i have no fikin idea what emit does so uuuuh idk how to do this
+};// im gonna be honest i have no fikin idea what im doing
 
 const sums = (n) => {
   let sum = 0
@@ -152,5 +152,5 @@ const rule110 = (array) => {
 //and it crashes the website so god only knows what would happen if i finished it
 
 const isSamePoint = (point1, point2) => {
-  return point1[x] === point2[x] && point1[y] === point2[y]
+  return (point1[x] === point2[x]) && (point1[y] === point2[y])
 };
