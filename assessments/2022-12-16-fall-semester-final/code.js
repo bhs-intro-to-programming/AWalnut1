@@ -117,7 +117,7 @@ const extractColumn = (board, collumn) => {
 const fillTimesTable = (array) => {
   let table = []
   for (let i=0; i < array.length; i++) {
-    table.push(i+1, (i+1)*2, (i+1)*3)
+    table.push((i+1)*i+1,)
   }
   return table
 };
