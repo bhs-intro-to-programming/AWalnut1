@@ -102,6 +102,14 @@ const thing = () => {
   return
 };
 
+const makeRow = () => {
+  return [' ', ' ', ' ']
+};
+
+const makeBoard = () => {
+  return [makeRow(), makeRow(), makeRow()]
+};
+
 const allTheSame = (a) => {
   return a[0] === a[1] && a[1] === a[2]
 };
@@ -139,4 +147,8 @@ const rule110 = (array) => {
     }
   }
   return newArray
+};// this is only half of the weird ass thing ur asking us to do with this this one and it crashes the website god only knows what would happen if i finished it
+
+const isSamePoint = () => {
+  return
 };
