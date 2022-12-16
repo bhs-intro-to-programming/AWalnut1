@@ -109,7 +109,7 @@ const allTheSame = (a) => {
 const extractColumn = (board, collumn) => {
   let extraction = []
   for (let i = 0; i < 3; i++) {
-    extraction.push(board[collumn])
+    extraction.push(board(collumn))
   }
   return extraction
 };
