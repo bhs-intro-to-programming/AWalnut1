@@ -96,3 +96,12 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+
+// just to copy past becuz im lazy
+const thing = () => {
+  return
+};
+
+const allTheSame = (a) => {
+  return a[0] === a[1] && a[1] === a[2]
+};
