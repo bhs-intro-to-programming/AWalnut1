@@ -22,7 +22,7 @@ const probabilityAllHeads = (coinFlips) => {
 };
 
 const futureHour = (currentHour, futureHours) => {
-  return currentHour + (futureHours % 24)
+  return (currentHour + futureHours) % 24
 };
 
 const presentsBudget = (numFriends, avgPresentPrice) => {
