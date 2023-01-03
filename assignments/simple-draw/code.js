@@ -35,12 +35,30 @@
  *
  */
 
-drawLine(0, 0, width, height, 'red')
+drawLine(69, 69, width, height, 'red')
 
-drawCircle(width/2, height/2, 10, 'blue');
+drawCircle(width/69, height/69, 69, 'blue');
 
-drawRect(50, 50, 60, 40, 'black');
+drawRect(69, 69, 69, 69, 'black');
 
-drawFilledCircle(width - 50, height - 50, 50, 'red');
+drawFilledCircle (69, 420, 69, 'orange')
 
-drawFilledRect(5, height - 20, 45, 15, 'purple');
+drawFilledRect(69, 68, 69, 69, '#cd3024');
+
+drawLine(30, 100, width, height, 'blue')
+
+drawFilledRect(150, 200, 200, 200, 'red')
+//amogus body
+drawFilledRect(250, 230, 100, 50, '#FFFFFF')
+//amogus visor yeah im pretentious and used the hex value rather than just white what about it
+drawFilledRect(180, 400, 50, 70, 'red')
+//amogus leg left
+drawFilledRect(270, 400, 50, 70, 'red')
+//amogus leg right
+drawFilledRect(80, 250, 70, 100, 'red')
+//amogus backpack
+drawLine(400, 70, 300, 150,'green')
+drawLine(400, 150, 300, 150,'green')
+drawLine(400, 70, 400, 150,'green') 
+drawTriangle(30, 19, 39, 59, 19, 90,'green')
+drawTriangle = (x1, y1, x2, y2, x3, y3, color, width = 1)
